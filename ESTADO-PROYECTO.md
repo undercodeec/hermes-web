@@ -20,7 +20,7 @@ El sitio nuevo usa la misma familia tecnológica y genera HTML estático mediant
 
 | Elemento | Estado |
 | --- | --- |
-| Repositorio local independiente y remoto `origin` | Preparado |
+| Repositorio local independiente y remoto `origin/main` | Base publicada |
 | Página de inicio responsive | Implementada como primera versión |
 | Identidad visual basada en el login | Implementada |
 | Vista ilustrativa del Inbox | Implementada, identificada como ilustrativa |
@@ -29,6 +29,8 @@ El sitio nuevo usa la misma familia tecnológica y genera HTML estático mediant
 | Acceso al CRM existente | Enlazado |
 | Diseño conforme a ejemplos del propietario | Pendiente de recibir referencias |
 | Dominio y despliegue | Pendientes de definición |
+
+La primera versión se publicó en `main` mediante el commit `6522131` (`feat: initialize Hermes commercial website`). Esta publicación corresponde al código fuente; el sitio aún no tiene despliegue ni dominio propio.
 
 ## Contenido y límites
 
@@ -49,3 +51,4 @@ La URL de contacto `https://undercodeec.com/contacto/` corresponde al formulario
 - `pnpm build`: correcto; Next.js prerenderizó `/` como página estática en `out/`.
 - Enlace de contacto: el formulario público de UnderCodeEC responde y está disponible.
 - El login CRM se toma de la ruta del frontend de referencia; no se validó una sesión autenticada desde este proyecto.
+- `git push`: la rama `main` se creó correctamente en el repositorio remoto.
