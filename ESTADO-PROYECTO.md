@@ -1,6 +1,6 @@
 # Estado del proyecto Hermes Web
 
-**Fecha de corte:** 2026-11-06
+**Fecha de corte:** 2026-11-09
 
 **Repositorio destino:** <https://github.com/undercodeec/hermes-web>
 
@@ -8,7 +8,7 @@
 
 ## Resumen
 
-Se creó una base local independiente para el sitio comercial de Hermes CRM. El repositorio remoto estaba vacío al iniciar este trabajo. La primera página ya presenta el producto, capacidades documentadas, un recorrido ilustrativo y un enlace de contacto. El diseño final queda sujeto a los ejemplos de UI que compartirá el propietario.
+Se creó una base local independiente para el sitio comercial de Hermes CRM. El repositorio remoto estaba vacío al iniciar este trabajo. La primera página ya presenta el producto, capacidades documentadas, un recorrido ilustrativo y un enlace de contacto. La adaptación UI/UX a `DESIGN.md` está implementada en la rama `feat/ui-ux-design-reference`, con QA técnico independiente favorable completado; pendiente de revisión visual responsive, teclado y contraste por el propietario.
 
 ## Fuente de diseño y tecnología
 
@@ -27,7 +27,7 @@ El sitio nuevo usa la misma familia tecnológica y genera HTML estático mediant
 | Secciones de producto, capacidades y recorrido | Implementadas |
 | Enlace de contacto a UnderCodeEC | Implementado |
 | Acceso al CRM existente | Enlazado |
-| Diseño conforme a ejemplos del propietario | Pendiente de recibir referencias |
+| Adaptación a la referencia de diseño `DESIGN.md` | Implementada; QA técnico independiente favorable; pendiente de revisión visual responsive, teclado y contraste por el propietario |
 | Dominio y despliegue | Pendientes de definición |
 
 La primera versión se publicó en `main` mediante el commit `6522131` (`feat: initialize Hermes commercial website`). Esta publicación corresponde al código fuente; el sitio aún no tiene despliegue ni dominio propio.
@@ -40,9 +40,9 @@ La URL de contacto `https://undercodeec.com/contacto/` corresponde al formulario
 
 ## Próximos pasos
 
-1. Incorporar los ejemplos de UI y ajustar jerarquía, composición, tipografía, imágenes y comportamiento según esas referencias.
+1. Completar con el propietario la revisión visual responsive, de navegación por teclado y de contraste de la adaptación a `DESIGN.md`. El QA técnico independiente ya se completó con resultado favorable.
 2. Confirmar texto comercial, propuesta de valor, CTA principal, dominio y requisitos de SEO con el propietario.
-3. Revisar accesibilidad y presentación en navegador antes de publicar.
+3. Obtener la aprobación visual y de accesibilidad en navegador del propietario antes de desplegar. La publicación del código en la rama de desarrollo es un paso separado.
 4. Habilitar indexación y desplegar cuando el contenido y el diseño estén aprobados.
 
 ## Verificación
@@ -52,3 +52,17 @@ La URL de contacto `https://undercodeec.com/contacto/` corresponde al formulario
 - Enlace de contacto: el formulario público de UnderCodeEC responde y está disponible.
 - El login CRM se toma de la ruta del frontend de referencia; no se validó una sesión autenticada desde este proyecto.
 - `git push`: la rama `main` se creó correctamente en el repositorio remoto.
+
+## Adaptación UI/UX a DESIGN.md — 2026-11-09
+
+- Rama de trabajo: `feat/ui-ux-design-reference`; HEAD base: `21118459c76d377bca29ea605689180bda7e0c29`.
+- Hero centrado con tipografía fluida y mockup frontal amplio sobre lavado lavanda, sin cuadrícula, órbitas, perspectiva 3D ni notas flotantes.
+- Identidad Hermes conservada: logo, azul `#3f7bff`, violeta `#6a63ff`. Superficies claras, píldoras delineadas, radios consistentes, sombras suaves y pesos 400/500/600; sin nuevas fuentes remotas ni dependencias.
+- Orden y contenido de introducción, capacidades, recorrido y contacto conservados; enlaces de UnderCodeEC y acceso CRM sin cambios. Sin clientes, métricas ni promesas nuevas.
+- Navegación móvil visible, enlace para saltar al contenido, foco visible, objetivos de navegación de al menos 44 px y respeto de movimiento reducido.
+- Vista identificada como “Vista ilustrativa · Sin datos reales”. Conversación a 14 px también en móvil; lista y barra lateral secundarias ocultas en pantallas pequeñas. No es una captura ni una interfaz funcional.
+- `pnpm install --frozen-lockfile`: correcto; sin cambios en el lockfile.
+- `pnpm build`: correcto; Next.js 16.1.2 exportó la página estática. `git diff --check`: correcto.
+- Metadatos existentes y `noindex, nofollow` conservados. No se modificó autenticación ni se realizó despliegue. El propietario autorizó commit y push del código a la rama de desarrollo; su ejecución corresponde al coordinador y no se registra aquí como realizada.
+- QA técnico independiente completado con resultado favorable: revisión de solo lectura del agente QA y verificaciones `pnpm build` y `git diff --check` ejecutadas por el coordinador. El recorrido usa una lista ordenada semántica (`ol`/`li`) sin duplicar la numeración accesible.
+- Pendiente: revisión visual responsive, navegación por teclado, contraste en navegador y aprobación del propietario. Estas comprobaciones no se sustituyen por el QA estático ni por el build.

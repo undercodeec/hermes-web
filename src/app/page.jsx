@@ -7,7 +7,6 @@ import {
   CircleDot,
   Inbox,
   MessageCircleMore,
-  MoveRight,
   ScanSearch,
   Sparkles,
   UserRoundCheck,
@@ -76,9 +75,7 @@ function Brand({ footer = false }) {
 }
 function DashboardPreview() {
   return (
-    <div className="preview-wrap" aria-label="Vista ilustrativa del flujo de trabajo de Hermes">
-      <div className="preview-orbit orbit-one" aria-hidden="true" />
-      <div className="preview-orbit orbit-two" aria-hidden="true" />
+    <figure className="preview-wrap" aria-label="Vista ilustrativa del flujo de trabajo de Hermes">
       <div className="preview-card">
         <div className="preview-topbar">
           <span className="preview-title"><span className="preview-mark">H</span> Hermes <span> / Inbox</span></span>
@@ -86,9 +83,9 @@ function DashboardPreview() {
         </div>
         <div className="preview-body">
           <div className="preview-sidebar" aria-hidden="true">
-            <span className="sidebar-active"><Inbox size={18} /></span>
-            <span><CircleDot size={18} /></span>
-            <span><ScanSearch size={18} /></span>
+            <span className="sidebar-active"><Inbox aria-hidden="true" size={18} /></span>
+            <span><CircleDot aria-hidden="true" size={18} /></span>
+            <span><ScanSearch aria-hidden="true" size={18} /></span>
           </div>
           <div className="preview-list">
             <div className="preview-list-head">
@@ -119,20 +116,19 @@ function DashboardPreview() {
               <div className="message outgoing">Claro. Cuéntanos qué necesita tu equipo y te orientamos.</div>
               <div className="message incoming shorter">Buscamos organizar las consultas que llegan por WhatsApp.</div>
             </div>
-            <div className="conversation-input"><span>Responder conversación</span><ArrowUpRight size={16} /></div>
+            <div className="conversation-input"><span>Responder conversación</span><ArrowUpRight aria-hidden="true" size={16} /></div>
           </div>
         </div>
       </div>
-      <div className="floating-note note-origin"><span><ScanSearch size={17} /></span><div><small>ORIGEN</small><strong>Referencia disponible</strong></div><Check size={15} /></div>
-      <div className="floating-note note-human"><span><UserRoundCheck size={17} /></span><div><small>SEGUIMIENTO</small><strong>Atención humana</strong></div><ArrowDownRight size={15} /></div>
-      <span className="preview-caption">VISTA ILUSTRATIVA · SIN DATOS REALES</span>
-    </div>
+      <figcaption className="preview-caption">Vista ilustrativa · Sin datos reales</figcaption>
+    </figure>
   );
 }
 
 export default function Home() {
   return (
     <>
+      <a className="skip-link" href="#inicio">Saltar al contenido</a>
       <header className="site-header">
         <div className="container header-inner">
           <Brand />
@@ -141,27 +137,26 @@ export default function Home() {
             <a href="#capacidades">Capacidades</a>
             <a href="#como-funciona">Cómo funciona</a>
           </nav>
-          <a className="header-cta" href={crmUrl} target="_blank" rel="noopener noreferrer">Acceso CRM <ArrowUpRight size={16} /></a>
+          <a className="header-cta" href={crmUrl} target="_blank" rel="noopener noreferrer">Acceso CRM <ArrowUpRight aria-hidden="true" size={16} /></a>
         </div>
       </header>
 
-      <main id="inicio">
+      <main id="inicio" tabIndex={-1}>
         <section className="hero" aria-labelledby="hero-title">
-          <div className="hero-grid" aria-hidden="true" />
           <div className="container hero-inner">
             <div className="hero-content">
               <span className="eyebrow"><span className="eyebrow-dot" /> HERMES CRM · GESTIÓN COMERCIAL</span>
               <h1 id="hero-title">Cada conversación puede <em>avanzar.</em></h1>
               <p>Hermes reúne conversaciones de WhatsApp, oportunidades y seguimiento comercial en un espacio de trabajo para tu equipo.</p>
               <div className="hero-actions">
-                <a className="button button-primary" href={contactUrl} target="_blank" rel="noopener noreferrer">Conversemos sobre Hermes <ArrowUpRight size={18} /></a>
-                <a className="text-link" href="#que-es">Explorar la solución <ArrowRight size={17} /></a>
+                <a className="button button-primary" href={contactUrl} target="_blank" rel="noopener noreferrer">Conversemos sobre Hermes <ArrowUpRight aria-hidden="true" size={18} /></a>
+                <a className="text-link" href="#que-es">Explorar la solución <ArrowRight aria-hidden="true" size={17} /></a>
               </div>
-              <div className="hero-proof"><span className="proof-icon"><Check size={16} /></span><span>De la primera consulta al seguimiento, con contexto.</span></div>
+              <div className="hero-proof"><span className="proof-icon"><Check aria-hidden="true" size={16} /></span><span>De la primera consulta al seguimiento, con contexto.</span></div>
             </div>
             <DashboardPreview />
           </div>
-          <div className="hero-bottom"><span>01 / UNA VISTA MÁS CLARA</span><a href="#que-es" aria-label="Ir a Qué es Hermes"><ArrowDownRight size={20} /></a></div>
+          <div className="hero-bottom"><span>01 / UNA VISTA MÁS CLARA</span><a href="#que-es" aria-label="Ir a Qué es Hermes"><ArrowDownRight aria-hidden="true" size={20} /></a></div>
         </section>
 
         <section className="intro-section section" id="que-es" aria-labelledby="intro-title">
@@ -177,7 +172,7 @@ export default function Home() {
             <div className="capabilities-grid">
               {capabilities.map((item) => {
                 const Icon = item.icon;
-                return <article className="capability-card" key={item.number}><div className="card-top"><span className="capability-icon"><Icon size={23} strokeWidth={1.8} /></span><span className="card-number">{item.number}</span></div><div><h3>{item.title}</h3><p>{item.description}</p></div><MoveRight className="card-arrow" size={22} aria-hidden="true" /></article>;
+                return <article className="capability-card" key={item.number}><div className="card-top"><span className="capability-icon"><Icon aria-hidden="true" size={23} strokeWidth={1.8} /></span><span className="card-number">{item.number}</span></div><div><h3>{item.title}</h3><p>{item.description}</p></div></article>;
               })}
             </div>
           </div>
@@ -185,17 +180,17 @@ export default function Home() {
 
         <section className="flow-section section" id="como-funciona" aria-labelledby="flow-title">
           <div className="container flow-grid">
-            <div className="flow-heading"><span className="section-kicker">EL RECORRIDO</span><h2 id="flow-title">Del primer mensaje a la siguiente acción.</h2><p>Una vista simple del flujo que Hermes ayuda a organizar.</p><a className="text-link" href={contactUrl} target="_blank" rel="noopener noreferrer">Hablar con el equipo <ArrowUpRight size={17} /></a></div>
-            <div className="steps-list">
+            <div className="flow-heading"><span className="section-kicker">EL RECORRIDO</span><h2 id="flow-title">Del primer mensaje a la siguiente acción.</h2><p>Una vista simple del flujo que Hermes ayuda a organizar.</p><a className="text-link" href={contactUrl} target="_blank" rel="noopener noreferrer">Hablar con el equipo <ArrowUpRight aria-hidden="true" size={17} /></a></div>
+            <ol className="steps-list" role="list">
               {steps.map((step) => {
                 const Icon = step.icon;
-                return <div className="step" key={step.number}><span className="step-number">{step.number}</span><span className="step-icon"><Icon size={23} strokeWidth={1.8} /></span><div><h3>{step.title}</h3><p>{step.description}</p></div></div>;
+                return <li className="step" key={step.number}><span className="step-number" aria-hidden="true">{step.number}</span><span className="step-icon"><Icon aria-hidden="true" size={23} strokeWidth={1.8} /></span><div><h3>{step.title}</h3><p>{step.description}</p></div></li>;
               })}
-            </div>
+            </ol>
           </div>
         </section>
 
-        <section className="contact-section" id="contacto" aria-labelledby="contact-title"><div className="container contact-inner"><div><span className="section-kicker">SIGUIENTE PASO</span><h2 id="contact-title">Hablemos de tus conversaciones comerciales.</h2><p>Conoce cómo Hermes puede encajar en el trabajo de tu equipo.</p></div><a className="button button-light" href={contactUrl} target="_blank" rel="noopener noreferrer">Contactar a UnderCodeEC <ArrowUpRight size={18} /></a></div></section>
+        <section className="contact-section" id="contacto" aria-labelledby="contact-title"><div className="container contact-inner"><div><span className="section-kicker">SIGUIENTE PASO</span><h2 id="contact-title">Hablemos de tus conversaciones comerciales.</h2><p>Conoce cómo Hermes puede encajar en el trabajo de tu equipo.</p></div><a className="button button-light" href={contactUrl} target="_blank" rel="noopener noreferrer">Contactar a UnderCodeEC <ArrowUpRight aria-hidden="true" size={18} /></a></div></section>
       </main>
 
       <footer className="site-footer"><div className="container footer-inner"><Brand footer /><span>Hermes CRM · Un producto de UnderCodeEC</span><a href="#inicio">Volver arriba ↑</a></div></footer>
