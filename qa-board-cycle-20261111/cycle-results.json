@@ -1,0 +1,583 @@
+{
+  "intervalo_prueba_ms": 1300,
+  "intervalo_real_ms": 6000,
+  "results": {
+    "1440": {
+      "events": [
+        {
+          "id": "Rippling",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 531,
+            "y": 219.1875,
+            "w": 280,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(298px, -120.188px) scale(1)"
+        },
+        {
+          "id": "Linear",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 233,
+            "y": 99,
+            "w": 265,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(298px, 0px) scale(1)"
+        },
+        {
+          "id": "Pulley",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 233,
+            "y": 99,
+            "w": 280,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(298px, 0px) scale(1)"
+        },
+        {
+          "id": "Carta",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 233,
+            "y": 99,
+            "w": 280,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(298px, 0px) scale(1)"
+        },
+        {
+          "id": "Mailchimp",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 233,
+            "y": 99,
+            "w": 280,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(298px, 0px) scale(1)"
+        },
+        {
+          "id": "Framer",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 531,
+            "y": 458.8125,
+            "w": 265,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(298px, -359.812px) scale(1)"
+        },
+        {
+          "id": "Slack",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 531,
+            "y": 458.8125,
+            "w": 265,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(298px, -359.812px) scale(1)"
+        },
+        {
+          "id": "Loops",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 829,
+            "y": 458.8125,
+            "w": 265,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(113px, -359.812px) scale(1)"
+        },
+        {
+          "id": "Footprint",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 829,
+            "y": 458.8125,
+            "w": 265,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(113px, -359.812px) scale(1)"
+        },
+        {
+          "id": "Stripe",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 829,
+            "y": 458.8125,
+            "w": 265,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(113px, -359.812px) scale(1)"
+        },
+        {
+          "id": "Mintlify",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 829,
+            "y": 458.8125,
+            "w": 265,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(113px, -359.812px) scale(1)"
+        },
+        {
+          "id": "Lever",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 829,
+            "y": 458.8125,
+            "w": 265,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(113px, -359.812px) scale(1)"
+        },
+        {
+          "id": "Superhuman",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 942,
+            "y": 458.8125,
+            "w": 265,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(-709px, -359.812px) scale(1)"
+        },
+        {
+          "id": "Rows.com",
+          "scope": "desktop",
+          "inBody": false,
+          "rect": {
+            "x": 942,
+            "y": 458.8125,
+            "w": 265,
+            "h": 112.1875
+          },
+          "surface": {
+            "x": 33,
+            "y": 33,
+            "w": 1174,
+            "h": 538
+          },
+          "end": "translate(-709px, -359.812px) scale(1)"
+        }
+      ],
+      "initial": {
+        "Linear": "Potencial",
+        "Pulley": "Potencial",
+        "Carta": "Potencial",
+        "Mailchimp": "Potencial",
+        "Framer": "Pendiente",
+        "Rippling": "Pendiente",
+        "Slack": "Pendiente",
+        "Loops": "Ganado",
+        "Footprint": "Ganado",
+        "Stripe": "Ganado",
+        "Mintlify": "Ganado",
+        "Lever": "Ganado",
+        "Superhuman": "Perdido",
+        "Rows.com": "Perdido"
+      },
+      "final": {
+        "Rows.com": "Potencial",
+        "Superhuman": "Potencial",
+        "Mailchimp": "Pendiente",
+        "Carta": "Pendiente",
+        "Pulley": "Pendiente",
+        "Linear": "Pendiente",
+        "Slack": "Ganado",
+        "Framer": "Ganado",
+        "Rippling": "Ganado",
+        "Lever": "Perdido",
+        "Mintlify": "Perdido",
+        "Stripe": "Perdido",
+        "Footprint": "Perdido",
+        "Loops": "Perdido"
+      }
+    },
+    "390": {
+      "events": [
+        {
+          "id": "Rippling",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 132,
+            "y": 127.796875,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(88px, -70.7969px) scale(1)"
+        },
+        {
+          "id": "Linear",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 25,
+            "y": 57,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(107px, 0px) scale(1)"
+        },
+        {
+          "id": "Pulley",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 25,
+            "y": 57,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(107px, 0px) scale(1)"
+        },
+        {
+          "id": "Carta",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 25,
+            "y": 57,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(107px, 0px) scale(1)"
+        },
+        {
+          "id": "Mailchimp",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 25,
+            "y": 57,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(107px, 0px) scale(1)"
+        },
+        {
+          "id": "Framer",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 132,
+            "y": 178.203125,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(88px, -121.203px) scale(1)"
+        },
+        {
+          "id": "Slack",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 132,
+            "y": 178.203125,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(88px, -121.203px) scale(1)"
+        },
+        {
+          "id": "Loops",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 220,
+            "y": 178.203125,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(0px, -121.203px) scale(1)"
+        },
+        {
+          "id": "Footprint",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 220,
+            "y": 178.203125,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(0px, -121.203px) scale(1)"
+        },
+        {
+          "id": "Stripe",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 220,
+            "y": 178.203125,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(0px, -121.203px) scale(1)"
+        },
+        {
+          "id": "Mintlify",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 220,
+            "y": 178.203125,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(0px, -121.203px) scale(1)"
+        },
+        {
+          "id": "Lever",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 220,
+            "y": 178.203125,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(0px, -121.203px) scale(1)"
+        },
+        {
+          "id": "Superhuman",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 220,
+            "y": 178.203125,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(-195px, -121.203px) scale(1)"
+        },
+        {
+          "id": "Rows.com",
+          "scope": "mini",
+          "inBody": false,
+          "rect": {
+            "x": 220,
+            "y": 178.203125,
+            "w": 145,
+            "h": 66.796875
+          },
+          "surface": {
+            "x": 25,
+            "y": 25,
+            "w": 340,
+            "h": 220
+          },
+          "end": "translate(-195px, -121.203px) scale(1)"
+        }
+      ],
+      "initial": {
+        "Linear": "Potencial",
+        "Pulley": "Potencial",
+        "Carta": "Potencial",
+        "Mailchimp": "Potencial",
+        "Framer": "Pendiente",
+        "Rippling": "Pendiente",
+        "Slack": "Pendiente",
+        "Loops": "Ganado",
+        "Footprint": "Ganado",
+        "Stripe": "Ganado",
+        "Mintlify": "Ganado",
+        "Lever": "Ganado",
+        "Superhuman": "Perdido",
+        "Rows.com": "Perdido"
+      },
+      "final": {
+        "Rows.com": "Potencial",
+        "Superhuman": "Potencial",
+        "Mailchimp": "Pendiente",
+        "Carta": "Pendiente",
+        "Pulley": "Pendiente",
+        "Linear": "Pendiente",
+        "Slack": "Ganado",
+        "Framer": "Ganado",
+        "Rippling": "Ganado",
+        "Lever": "Perdido",
+        "Mintlify": "Perdido",
+        "Stripe": "Perdido",
+        "Footprint": "Perdido",
+        "Loops": "Perdido"
+      }
+    }
+  },
+  "details_close_resize": "OK"
+}

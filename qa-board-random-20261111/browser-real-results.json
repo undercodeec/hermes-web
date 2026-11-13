@@ -1,0 +1,148 @@
+{
+  "intervalo_ms": 6000,
+  "results": {
+    "1440": {
+      "elapsed_seconds": 18.3,
+      "events": [
+        {
+          "id": "Rippling",
+          "scope": "desktop",
+          "inBody": false,
+          "state": {
+            "Rippling": "Potencial",
+            "Linear": "Potencial",
+            "Pulley": "Potencial",
+            "Carta": "Potencial",
+            "Mailchimp": "Potencial",
+            "Framer": "Pendiente",
+            "Slack": "Pendiente",
+            "Loops": "Ganado",
+            "Footprint": "Ganado",
+            "Stripe": "Ganado",
+            "Mintlify": "Ganado",
+            "Lever": "Ganado",
+            "Superhuman": "Perdido",
+            "Rows.com": "Perdido"
+          },
+          "end": "translate(-298px, -120.188px) scale(1)"
+        },
+        {
+          "id": "Pulley",
+          "scope": "desktop",
+          "inBody": false,
+          "state": {
+            "Rippling": "Potencial",
+            "Linear": "Potencial",
+            "Carta": "Potencial",
+            "Mailchimp": "Potencial",
+            "Framer": "Pendiente",
+            "Slack": "Pendiente",
+            "Pulley": "Ganado",
+            "Loops": "Ganado",
+            "Footprint": "Ganado",
+            "Stripe": "Ganado",
+            "Mintlify": "Ganado",
+            "Lever": "Ganado",
+            "Superhuman": "Perdido",
+            "Rows.com": "Perdido"
+          },
+          "end": "translate(596px, -240.375px) scale(1)"
+        },
+        {
+          "id": "Slack",
+          "scope": "desktop",
+          "inBody": false,
+          "state": {
+            "Rippling": "Potencial",
+            "Linear": "Potencial",
+            "Carta": "Potencial",
+            "Mailchimp": "Potencial",
+            "Framer": "Pendiente",
+            "Pulley": "Ganado",
+            "Loops": "Ganado",
+            "Footprint": "Ganado",
+            "Stripe": "Ganado",
+            "Mintlify": "Ganado",
+            "Lever": "Ganado",
+            "Slack": "Perdido",
+            "Superhuman": "Perdido",
+            "Rows.com": "Perdido"
+          },
+          "end": "translate(396px, -120.188px) scale(1)"
+        }
+      ]
+    },
+    "390": {
+      "elapsed_seconds": 18.2,
+      "events": [
+        {
+          "id": "Framer",
+          "scope": "mini",
+          "inBody": false,
+          "state": {
+            "Framer": "Potencial",
+            "Linear": "Potencial",
+            "Pulley": "Potencial",
+            "Carta": "Potencial",
+            "Mailchimp": "Potencial",
+            "Rippling": "Pendiente",
+            "Slack": "Pendiente",
+            "Loops": "Ganado",
+            "Footprint": "Ganado",
+            "Stripe": "Ganado",
+            "Mintlify": "Ganado",
+            "Lever": "Ganado",
+            "Superhuman": "Perdido",
+            "Rows.com": "Perdido"
+          },
+          "end": "translate(-107px, 0px) scale(1)"
+        },
+        {
+          "id": "Linear",
+          "scope": "mini",
+          "inBody": false,
+          "state": {
+            "Framer": "Potencial",
+            "Pulley": "Potencial",
+            "Carta": "Potencial",
+            "Mailchimp": "Potencial",
+            "Rippling": "Pendiente",
+            "Slack": "Pendiente",
+            "Loops": "Ganado",
+            "Footprint": "Ganado",
+            "Stripe": "Ganado",
+            "Mintlify": "Ganado",
+            "Lever": "Ganado",
+            "Linear": "Perdido",
+            "Superhuman": "Perdido",
+            "Rows.com": "Perdido"
+          },
+          "end": "translate(195px, -70.7969px) scale(1)"
+        },
+        {
+          "id": "Mailchimp",
+          "scope": "mini",
+          "inBody": false,
+          "state": {
+            "Framer": "Potencial",
+            "Pulley": "Potencial",
+            "Carta": "Potencial",
+            "Mailchimp": "Pendiente",
+            "Rippling": "Pendiente",
+            "Slack": "Pendiente",
+            "Loops": "Ganado",
+            "Footprint": "Ganado",
+            "Stripe": "Ganado",
+            "Mintlify": "Ganado",
+            "Lever": "Ganado",
+            "Linear": "Perdido",
+            "Superhuman": "Perdido",
+            "Rows.com": "Perdido"
+          },
+          "end": "translate(107px, -121.203px) scale(1)"
+        }
+      ]
+    }
+  },
+  "mobile_sync": "OK"
+}

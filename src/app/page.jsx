@@ -1,199 +1,573 @@
 import Image from "next/image";
 import {
-  ArrowDownRight,
-  ArrowRight,
-  ArrowUpRight,
-  Check,
-  CircleDot,
   Inbox,
-  MessageCircleMore,
-  ScanSearch,
-  Sparkles,
-  UserRoundCheck,
+  MessageCircle,
+  CircleDot,
+  Search,
+  SlidersHorizontal,
+  ArrowUpRight,
+  MoreHorizontal,
+  Send,
+  Check,
+  Tag,
+  UserRound,
+  Flag,
 } from "lucide-react";
+import Navigation from "./navigation";
+import HeroCanvas from "./hero-canvas";
+import PrimaryPreview from "./primary-preview";
+import ReferenceBoard from "./reference-board";
+import ScrollReveal from "./scroll-reveal";
 
 const contactUrl = "https://undercodeec.com/contacto/";
 const crmUrl = "https://admincrm.undercodeec.com/admin/crm/login/";
-
-const capabilities = [
-  {
-    number: "01",
-    icon: MessageCircleMore,
-    title: "Conversaciones en contexto",
-    description:
-      "Revisa los mensajes de WhatsApp y el historial de cada conversación desde el Inbox del CRM.",
-  },
-  {
-    number: "02",
-    icon: CircleDot,
-    title: "Oportunidades visibles",
-    description:
-      "Organiza leads y consulta su etapa comercial para saber qué conversación necesita seguimiento.",
-  },
-  {
-    number: "03",
-    icon: ScanSearch,
-    title: "Origen con evidencia",
-    description:
-      "Consulta la atribución disponible de las conversaciones y filtra las que tienen referencia de anuncios de Meta.",
-  },
+const contacts = [
+  ["LC", "Lucía · Consulta nueva", "Quisiera más información", "Ahora"],
+  ["AM", "Andrés · Seguimiento", "Gracias por la orientación", "10:42"],
+  ["SR", "Sofía · Próximo contacto", "Podemos conversar mañana", "10:18"],
+  ["MP", "Mateo · Información", "Me interesa conocer Hermes", "Ayer"],
+  ["VP", "Valeria · Consulta", "¿Cómo funciona el Inbox?", "Ayer"],
+  ["DR", "Diego · Seguimiento", "Les comparto el contexto", "Ayer"],
 ];
-
-const steps = [
-  {
-    number: "01",
-    title: "Llega un mensaje",
-    description: "La conversación entra por WhatsApp y queda registrada para el equipo.",
-    icon: MessageCircleMore,
-  },
-  {
-    number: "02",
-    title: "Se reconoce la oportunidad",
-    description: "El CRM reúne contexto, origen disponible y etapa del lead.",
-    icon: Sparkles,
-  },
-  {
-    number: "03",
-    title: "El equipo da seguimiento",
-    description: "Las tareas que requieren atención humana quedan visibles en el Inbox.",
-    icon: UserRoundCheck,
-  },
-];
-
 function Brand({ footer = false }) {
   return (
-    <a className={`brand${footer ? " brand-footer" : ""}`} href="#inicio" aria-label="Hermes CRM, ir al inicio">
+    <a
+      href="#inicio"
+      className={`brand${footer ? " brand-footer" : ""}`}
+    >
       <Image
-        src="/images/hermes-crm-logo.png"
-        alt="Hermes CRM"
-        width={2172}
-        height={724}
+        src="/favicon.ico"
+        alt=""
+        width={32}
+        height={32}
+        unoptimized
         priority={!footer}
+        loading={footer ? "eager" : undefined}
       />
+      <span>Hermes ARM</span>
     </a>
   );
 }
-function DashboardPreview() {
+function Avatar({ initials = "LC" }) {
+  return <span className="avatar">{initials}</span>;
+}
+function Label({ children }) {
+  return <span className="label">{children}</span>;
+}
+function Context({ compact = false }) {
   return (
-    <figure className="preview-wrap" aria-label="Vista ilustrativa del flujo de trabajo de Hermes">
-      <div className="preview-card">
-        <div className="preview-topbar">
-          <span className="preview-title"><span className="preview-mark">H</span> Hermes <span> / Inbox</span></span>
-          <span className="preview-status"><span /> En seguimiento</span>
-        </div>
-        <div className="preview-body">
-          <div className="preview-sidebar" aria-hidden="true">
-            <span className="sidebar-active"><Inbox aria-hidden="true" size={18} /></span>
-            <span><CircleDot aria-hidden="true" size={18} /></span>
-            <span><ScanSearch aria-hidden="true" size={18} /></span>
+    <aside
+      className={`crm-context${compact ? " compact-context" : ""}`}
+      aria-label="Contexto ilustrativo del lead"
+    >
+      <div className="context-person">
+        <Avatar />
+        <strong>Lucía · Consulta nueva</strong>
+        <span>Contacto de ejemplo</span>
+      </div>
+      <div className="context-title">
+        Información del lead <MoreHorizontal size={15} />
+      </div>
+      <dl>
+        <dt>Etapa comercial</dt>
+        <dd>
+          <CircleDot size={13} /> Contacto inicial
+        </dd>
+        <dt>Canal</dt>
+        <dd>WhatsApp</dd>
+        <dt>Origen disponible</dt>
+        <dd>Referencia de Meta</dd>
+        <dt>Atención</dt>
+        <dd>
+          <UserRound size={13} /> Revisión humana
+        </dd>
+      </dl>
+      <div className="context-title">Contexto</div>
+      <p>Interés en organizar las consultas comerciales del equipo.</p>
+      <Label>Seguimiento</Label>
+    </aside>
+  );
+}
+function InboxMockup({ main = false }) {
+  if (main) return <PrimaryPreview />;
+  return (
+    <figure className={`product-figure${main ? " primary-preview" : ""}`}>
+      <div className="glass-frame">
+        <div className="crm-window">
+          <div className="crm-top">
+            <span>
+              <span className="crm-monogram">H</span> Hermes{" "}
+              <span className="workspace-name">/ Espacio comercial</span>
+            </span>
+            <span className="workspace-user">
+              <span className="status-dot" /> Equipo Hermes{" "}
+              <Avatar initials="EH" />
+            </span>
           </div>
-          <div className="preview-list">
-            <div className="preview-list-head">
-              <strong>Conversaciones</strong>
-              <span className="tiny-circle" />
+          <div className="crm-layout">
+            <aside className="crm-sidebar" aria-label="Áreas ilustrativas">
+              <span className="workspace-label">ESPACIO DE TRABAJO</span>
+              <span className="sidebar-item selected">
+                <Inbox size={16} /> Inbox
+              </span>
+              <span className="sidebar-item">
+                <CircleDot size={16} /> Leads
+              </span>
+              <span className="sidebar-item">
+                <Tag size={16} /> Atribución
+              </span>
+              <div className="sidebar-divider" />
+              <span className="workspace-label">CONVERSACIONES</span>
+              <span className="sidebar-item">
+                <MessageCircle size={16} /> WhatsApp
+              </span>
+              <span className="sidebar-item">
+                <Flag size={16} /> Atención humana
+              </span>
+              <span className="sidebar-bottom">Hermes ARM · UnderCodeEC</span>
+            </aside>
+            <div className="crm-list">
+              <div className="list-title">
+                <strong>Inbox</strong>
+                <SlidersHorizontal size={16} />
+              </div>
+              <div className="mock-search">
+                <Search size={13} /> Buscar conversación
+              </div>
+              <div className="list-tabs">
+                <span>Todas</span>
+                <span>En seguimiento</span>
+              </div>
+              {contacts.map(([initials, name, text, time], index) => (
+                <div
+                  className={`contact-row${index === 0 ? " active" : ""}`}
+                  key={initials}
+                >
+                  <Avatar initials={initials} />
+                  <div>
+                    <strong>{name}</strong>
+                    <span>{text}</span>
+                    <small>
+                      WhatsApp ·{" "}
+                      {index === 0 ? "Contacto inicial" : "Seguimiento"}
+                    </small>
+                  </div>
+                  <time>{time}</time>
+                </div>
+              ))}
             </div>
-            <div className="preview-list-item active">
-              <span className="avatar avatar-blue">C</span>
-              <span><strong>Consulta nueva</strong><small>Quisiera conocer más...</small></span>
+            <div className="crm-chat">
+              <div className="chat-title">
+                <div>
+                  <Avatar />
+                  <span>
+                    <strong>Lucía</strong>
+                    <small>WhatsApp · Consulta comercial</small>
+                  </span>
+                </div>
+                <MoreHorizontal size={18} />
+              </div>
+              <div className="chat-messages">
+                <span className="date-label">
+                  Hoy · Conversación ilustrativa
+                </span>
+                <div className="bubble">
+                  Hola, quisiera conocer cómo funciona Hermes.
+                  <small>10:45</small>
+                </div>
+                <div className="bubble sent">
+                  Hola, Lucía. Cuéntenos qué necesita su equipo y le orientamos.
+                  <small>
+                    10:46 <Check size={12} />
+                  </small>
+                </div>
+                <span className="chat-event">Contexto del lead disponible</span>
+                <div className="bubble">
+                  Buscamos organizar las consultas que llegan por WhatsApp.
+                  <small>10:47</small>
+                </div>
+                <div className="bubble sent">
+                  Gracias por compartirlo. Podemos revisar su flujo de atención.
+                  <small>
+                    10:48 <Check size={12} />
+                  </small>
+                </div>
+              </div>
+              <div className="mock-composer">
+                <span>Responder conversación</span>
+                <div>
+                  <span>＋</span>
+                  <span className="send-icon">
+                    <Send size={13} />
+                  </span>
+                </div>
+              </div>
             </div>
-            <div className="preview-list-item">
-              <span className="avatar avatar-violet">S</span>
-              <span><strong>Seguimiento</strong><small>Gracias por la información</small></span>
-            </div>
-            <div className="preview-list-item">
-              <span className="avatar avatar-sky">P</span>
-              <span><strong>Próximo contacto</strong><small>¿Podemos agendar?</small></span>
-            </div>
-          </div>
-          <div className="preview-conversation">
-            <div className="conversation-head">
-              <div><span className="avatar avatar-blue">C</span><span><strong>Consulta nueva</strong><small>WhatsApp</small></span></div>
-              <span className="conversation-chip">Lead abierto</span>
-            </div>
-            <div className="conversation-messages">
-              <span className="message-date">HOY</span>
-              <div className="message incoming">Hola, quisiera conocer cómo funciona Hermes.</div>
-              <div className="message outgoing">Claro. Cuéntanos qué necesita tu equipo y te orientamos.</div>
-              <div className="message incoming shorter">Buscamos organizar las consultas que llegan por WhatsApp.</div>
-            </div>
-            <div className="conversation-input"><span>Responder conversación</span><ArrowUpRight aria-hidden="true" size={16} /></div>
+            <Context />
           </div>
         </div>
       </div>
-      <figcaption className="preview-caption">Vista ilustrativa · Sin datos reales</figcaption>
+      <figcaption>Vista ilustrativa · Sin datos reales</figcaption>
     </figure>
   );
 }
-
+function SectionHeading({ id, title, children }) {
+  return (
+    <div className="section-heading">
+      <h2 id={id}>{title}</h2>
+      <p>{children}</p>
+    </div>
+  );
+}
+function FollowupVisual() {
+  return (
+    <div className="detail-visual">
+      <div className="mini-toolbar">
+        <span>Atención del equipo</span>
+        <Flag size={16} />
+      </div>
+      {[
+        ["LC", "Consulta nueva", "Revisión humana"],
+        ["AM", "Seguimiento comercial", "Por revisar"],
+        ["SR", "Próximo contacto", "En seguimiento"],
+      ].map(([initials, title, status]) => (
+        <div className="task-row" key={initials}>
+          <Avatar initials={initials} />
+          <div>
+            <strong>{title}</strong>
+            <span>Conversación de WhatsApp</span>
+          </div>
+          <Label>{status}</Label>
+        </div>
+      ))}
+      <div className="mini-note">El contexto acompaña la siguiente acción.</div>
+    </div>
+  );
+}
+function SourceVisual() {
+  return (
+    <div className="detail-visual source-visual">
+      <div className="mini-toolbar">
+        <span>Origen de la conversación</span>
+        <Tag size={16} />
+      </div>
+      <div className="source-contact">
+        <Avatar />
+        <div>
+          <strong>Consulta nueva</strong>
+          <span>WhatsApp · Contacto inicial</span>
+        </div>
+        <Label>Meta</Label>
+      </div>
+      <dl className="source-fields">
+        <div>
+          <dt>Referencia de anuncio</dt>
+          <dd>Disponible</dd>
+        </div>
+        <div>
+          <dt>Contexto del lead</dt>
+          <dd>Consulta comercial</dd>
+        </div>
+        <div>
+          <dt>Atribución</dt>
+          <dd>Según evidencia disponible</dd>
+        </div>
+      </dl>
+      <p className="mini-note">
+        La información de origen depende de cada conversación.
+      </p>
+    </div>
+  );
+}
+const features = [
+  [
+    "Inbox con contexto",
+    "Revise mensajes de WhatsApp e historial para retomar cada consulta con información a mano.",
+    "conversation",
+  ],
+  [
+    "Origen con evidencia",
+    "Consulte referencias de Meta cuando estén disponibles; no toda conversación tiene un origen identificado.",
+    "source",
+  ],
+  [
+    "Asistencia bajo supervisión",
+    "Combine asistencia conversacional y atención humana según el alcance configurado.",
+    "human",
+  ],
+  [
+    "Seguimiento de leads",
+    "Consulte la etapa comercial y decida cómo continuar cada oportunidad.",
+    "opportunity",
+  ],
+];
+function FeatureVisual({ type }) {
+  if (type === "source")
+    return (
+      <div className="feature-visual">
+        <SourceVisual />
+      </div>
+    );
+  if (type === "human")
+    return (
+      <div className="feature-visual">
+        <FollowupVisual />
+      </div>
+    );
+  if (type === "conversation")
+    return (
+      <div className="feature-visual feature-chat">
+        <div className="mini-toolbar">
+          <span>
+            <MessageCircle size={15} /> Inbox · WhatsApp
+          </span>
+          <Label>Contacto inicial</Label>
+        </div>
+        <div className="bubble">Quisiera conocer más sobre Hermes.</div>
+        <div className="bubble sent">Cuéntenos qué necesita su equipo.</div>
+      </div>
+    );
+  return (
+    <div className="feature-visual feature-stages">
+      {["Contacto inicial", "En seguimiento", "Próximo contacto"].map(
+        (stage, index) => (
+          <div key={stage}>
+            <span className="stage-label">{stage}</span>
+            <div className="mini-lead">
+              <Avatar initials={["LC", "AM", "SR"][index]} />
+              <strong>
+                {["Consulta nueva", "Seguimiento", "Próximo contacto"][index]}
+              </strong>
+              <span>WhatsApp</span>
+            </div>
+          </div>
+        ),
+      )}
+    </div>
+  );
+}
 export default function Home() {
   return (
     <>
-      <a className="skip-link" href="#inicio">Saltar al contenido</a>
+      <ScrollReveal />
+      <a href="#inicio" className="skip-link">
+        Saltar al contenido
+      </a>
       <header className="site-header">
-        <div className="container header-inner">
-          <Brand />
-          <nav className="main-nav" aria-label="Navegación principal">
-            <a href="#que-es">Qué es Hermes</a>
-            <a href="#capacidades">Capacidades</a>
-            <a href="#como-funciona">Cómo funciona</a>
-          </nav>
-          <a className="header-cta" href={crmUrl} target="_blank" rel="noopener noreferrer">Acceso CRM <ArrowUpRight aria-hidden="true" size={16} /></a>
-        </div>
+        <Brand />
+        <Navigation />
       </header>
-
       <main id="inicio" tabIndex={-1}>
         <section className="hero" aria-labelledby="hero-title">
-          <div className="container hero-inner">
-            <div className="hero-content">
-              <span className="eyebrow"><span className="eyebrow-dot" /> HERMES CRM · GESTIÓN COMERCIAL</span>
-              <h1 id="hero-title">Cada conversación puede <em>avanzar.</em></h1>
-              <p>Hermes reúne conversaciones de WhatsApp, oportunidades y seguimiento comercial en un espacio de trabajo para tu equipo.</p>
-              <div className="hero-actions">
-                <a className="button button-primary" href={contactUrl} target="_blank" rel="noopener noreferrer">Conversemos sobre Hermes <ArrowUpRight aria-hidden="true" size={18} /></a>
-                <a className="text-link" href="#que-es">Explorar la solución <ArrowRight aria-hidden="true" size={17} /></a>
+          <HeroCanvas />
+          <div className="hero-content">
+            <div className="hero-heading">
+              <span className="eyebrow">
+                <span className="status-dot" /> Hermes ARM · UnderCodeEC
+              </span>
+              <h1 id="hero-title">
+                De WhatsApp{" "}
+                <br />
+                <span>al siguiente paso.</span>
+              </h1>
+              <p>
+                Hermes ARM conecta conversaciones de WhatsApp y contexto comercial
+                con asistencia de IA y supervisión humana. Su equipo decide cómo
+                continuar, según el alcance de cada caso.
+              </p>
+            </div>
+            <a className="primary-button" href={contactUrl}>
+              Conversemos <ArrowUpRight size={21} aria-hidden="true" />
+            </a>
+          </div>
+        </section>
+        <div className="page-sections">
+          <InboxMockup main />
+          <section
+            className="proof-strip"
+            aria-label="Capacidades del espacio de trabajo"
+          >
+            <p>Hermes ARM nace de la experiencia comercial de UnderCodeEC. Consulte el alcance y la disponibilidad para su caso.</p>
+            <div>
+              <span>
+                <MessageCircle /> Conversaciones
+              </span>
+              <span>
+                <CircleDot /> Leads y etapas
+              </span>
+              <span>
+                <Tag /> Origen disponible
+              </span>
+              <span>
+                <UserRound /> Atención humana
+              </span>
+            </div>
+          </section>
+          <section
+            className="product-section"
+            id="producto"
+            aria-labelledby="conversa-title"
+          >
+            <SectionHeading id="conversa-title" title="Entienda antes de responder.">
+              Hermes ARM reúne mensajes e información del contacto para ayudar a su
+              equipo a retomar cada consulta con contexto.
+            </SectionHeading>
+            <InboxMockup />
+          </section>
+          <section
+            className="product-section organize-section"
+            aria-labelledby="organiza-title"
+          >
+            <SectionHeading
+              id="organiza-title"
+              title="Del contacto a la oportunidad."
+            >
+              Organice los leads por etapa y revise el contexto antes de decidir
+              el siguiente paso comercial.
+            </SectionHeading>
+            <ReferenceBoard />
+          </section>
+          <section
+            className="detail-section"
+            aria-label="Seguimiento y atribución"
+          >
+            <article className="detail-row">
+              <div className="detail-copy">
+                <span className="section-label">HERMES ARM · ASISTENCIA Y EQUIPO</span>
+                <h2>
+                  La asistencia apoya.{" "}
+                  <br />
+                  Su equipo continúa.
+                </h2>
+                <p>
+                  Hermes está diseñado para combinar asistencia conversacional y
+                  atención humana. El alcance de la asistencia depende de la
+                  configuración de cada caso.
+                </p>
+                <p style={{ marginTop: "16px" }}>
+                  ARM (Agentic Relationship Management) plantea que agentes de
+                  IA apoyen el trabajo con información y tareas bajo reglas y
+                  supervisión humana. Hermes ARM adopta ese enfoque: busca combinar
+                  asistencia conversacional y atención humana según cada caso;
+                  el uso de agentes para otras tareas es una posibilidad, no una
+                  capacidad garantizada. {" "}
+                  <a href="https://consultordemarketing.mx/del-crm-al-arm-agentic-relationship-management" style={{ textDecoration: "underline", textUnderlineOffset: "3px" }}>
+                    Leer sobre ARM en una fuente externa
+                  </a>.
+                </p>
               </div>
-              <div className="hero-proof"><span className="proof-icon"><Check aria-hidden="true" size={16} /></span><span>De la primera consulta al seguimiento, con contexto.</span></div>
+              <FollowupVisual />
+            </article>
+            <div className="flow-arrow" aria-hidden="true">
+              ↶
             </div>
-            <DashboardPreview />
-          </div>
-          <div className="hero-bottom"><span>01 / UNA VISTA MÁS CLARA</span><a href="#que-es" aria-label="Ir a Qué es Hermes"><ArrowDownRight aria-hidden="true" size={20} /></a></div>
-        </section>
-
-        <section className="intro-section section" id="que-es" aria-labelledby="intro-title">
-          <div className="container intro-grid">
-            <div><span className="section-kicker">LA IDEA</span><h2 id="intro-title">Menos piezas sueltas.<br /><span>Más contexto para actuar.</span></h2></div>
-            <div className="intro-copy"><p>Una consulta comercial no termina cuando llega el mensaje. Hay que entender de dónde vino, reconocer qué necesita la persona y darle continuidad.</p><p>Hermes conecta ese recorrido en el CRM para que el equipo pueda revisar conversaciones, leads y tareas de atención desde un mismo lugar.</p></div>
-          </div>
-        </section>
-
-        <section className="capabilities-section section" id="capacidades" aria-labelledby="capabilities-title">
-          <div className="container">
-            <div className="section-heading"><div><span className="section-kicker">LO QUE REÚNE</span><h2 id="capabilities-title">Una operación comercial<br />más fácil de leer.</h2></div><p>Herramientas para seguir el recorrido de cada conversación sin perder su contexto.</p></div>
-            <div className="capabilities-grid">
-              {capabilities.map((item) => {
-                const Icon = item.icon;
-                return <article className="capability-card" key={item.number}><div className="card-top"><span className="capability-icon"><Icon aria-hidden="true" size={23} strokeWidth={1.8} /></span><span className="card-number">{item.number}</span></div><div><h3>{item.title}</h3><p>{item.description}</p></div></article>;
-              })}
+            <article className="detail-row reversed">
+              <div className="detail-copy">
+                <span className="section-label">ATRIBUCIÓN DISPONIBLE</span>
+                <h2>
+                  Reconozca el origen{" "}
+                  <br />
+                  de la conversación.
+                </h2>
+                <p>
+                  Cuando una conversación incluye una referencia de anuncio de
+                  Meta, puede consultarla. Si no hay evidencia suficiente, el
+                  origen permanece desconocido.
+                </p>
+              </div>
+              <SourceVisual />
+            </article>
+            <p className="illustration-note">
+              Todas las interfaces son ilustrativas y no contienen datos reales.
+            </p>
+          </section>
+          <section
+            className="features-section"
+            id="capacidades"
+            aria-labelledby="features-title"
+          >
+            <SectionHeading
+              id="features-title"
+              title="Información para dar continuidad."
+            >
+              En Hermes ARM, el historial y la etapa del lead aportan contexto;
+              las acciones de asistencia dependen de las reglas y configuración de cada caso.
+            </SectionHeading>
+            <div className="features-grid">
+              {features.map(([title, description, type]) => (
+                <article key={type} className={`feature-card feature-${type}`}>
+                  <FeatureVisual type={type} />
+                  <div className="feature-copy">
+                    <h3>{title}</h3>
+                    <p>{description}</p>
+                  </div>
+                </article>
+              ))}
             </div>
-          </div>
-        </section>
-
-        <section className="flow-section section" id="como-funciona" aria-labelledby="flow-title">
-          <div className="container flow-grid">
-            <div className="flow-heading"><span className="section-kicker">EL RECORRIDO</span><h2 id="flow-title">Del primer mensaje a la siguiente acción.</h2><p>Una vista simple del flujo que Hermes ayuda a organizar.</p><a className="text-link" href={contactUrl} target="_blank" rel="noopener noreferrer">Hablar con el equipo <ArrowUpRight aria-hidden="true" size={17} /></a></div>
-            <ol className="steps-list" role="list">
-              {steps.map((step) => {
-                const Icon = step.icon;
-                return <li className="step" key={step.number}><span className="step-number" aria-hidden="true">{step.number}</span><span className="step-icon"><Icon aria-hidden="true" size={23} strokeWidth={1.8} /></span><div><h3>{step.title}</h3><p>{step.description}</p></div></li>;
-              })}
+          </section>
+          <section className="journey-section" aria-labelledby="journey-title">
+            <SectionHeading
+              id="journey-title"
+              title="De la consulta al seguimiento."
+            >
+              Un recorrido ARM que conecta contexto, asistencia delimitada y
+              decisiones del equipo.
+            </SectionHeading>
+            <ol className="journey-grid">
+              {[
+                [
+                  "Llega una consulta",
+                  "Un mensaje de WhatsApp inicia una conversación que el equipo puede revisar en el Inbox.",
+                ],
+                [
+                  "El lead reúne contexto",
+                  "La conversación, la etapa y el origen disponible ayudan a orientar el seguimiento.",
+                ],
+                [
+                  "La atención continúa",
+                  "La asistencia conversacional apoya al equipo bajo las reglas y el alcance configurados para cada caso.",
+                ],
+              ].map(([title, copy], index) => (
+                <li key={title}>
+                  <span className="journey-number" aria-hidden="true">
+                    0{index + 1}
+                  </span>
+                  <h3>{title}</h3>
+                  <p>{copy}</p>
+                </li>
+              ))}
             </ol>
-          </div>
-        </section>
-
-        <section className="contact-section" id="contacto" aria-labelledby="contact-title"><div className="container contact-inner"><div><span className="section-kicker">SIGUIENTE PASO</span><h2 id="contact-title">Hablemos de tus conversaciones comerciales.</h2><p>Conoce cómo Hermes puede encajar en el trabajo de tu equipo.</p></div><a className="button button-light" href={contactUrl} target="_blank" rel="noopener noreferrer">Contactar a UnderCodeEC <ArrowUpRight aria-hidden="true" size={18} /></a></div></section>
+          </section>
+        </div>
       </main>
-
-      <footer className="site-footer"><div className="container footer-inner"><Brand footer /><span>Hermes CRM · Un producto de UnderCodeEC</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+      <footer id="contacto" className="site-footer">
+        <div className="footer-top">
+          <div className="footer-brand">
+            <Brand footer />
+            <p>
+              Hermes ARM: contexto, asistencia{" "}
+              <br />y decisiones de su equipo.
+            </p>
+          </div>
+          <div className="footer-links">
+            <div>
+              <h2>Hermes</h2>
+              <a href="#producto">Producto</a>
+              <a href="#capacidades">Capacidades</a>
+              <a href={crmUrl}>Acceso al espacio de trabajo ↗</a>
+            </div>
+            <div>
+              <h2>Conversemos</h2>
+              <a href={contactUrl}>Contactar a UnderCodeEC ↗</a>
+              <a href="https://undercodeec.com/">UnderCodeEC ↗</a>
+            </div>
+          </div>
+        </div>
+        <div className="footer-bottom">
+          <span>Hermes ARM · Un producto de UnderCodeEC</span>
+          <a href="#inicio">Volver al inicio ↑</a>
+        </div>
+      </footer>
     </>
   );
 }

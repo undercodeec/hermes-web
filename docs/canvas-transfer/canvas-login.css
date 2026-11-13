@@ -1,0 +1,13 @@
+.crm-login-brain { --crm-brain-half-width: clamp(90px, 9vw, 140px); width: min(100%, 760px); height: clamp(360px, 52vh, 560px); min-height: 340px; align-self: flex-start; margin: auto 0; transform: translateX(-10vw); pointer-events: auto; }
+.crm-login-brain iframe { display: block; width: calc(100% + var(--crm-brain-half-width) + var(--crm-brain-half-width)); margin-left: calc(0px - var(--crm-brain-half-width)); height: 100%; border: 0; background: transparent; visibility: hidden; pointer-events: auto; clip-path: inset(2px); transform: scale(1.1); transform-origin: center; animation: crm-login-brain-colors 18s ease-in-out -9s infinite; }
+.crm-login-brain.is-ready iframe { visibility: visible; }
+@keyframes crm-login-brain-colors {
+  0%, 100% { filter: grayscale(1) sepia(1) saturate(2.5) contrast(1.15) invert(1) hue-rotate(0deg); }
+  50% { filter: grayscale(1) sepia(1) saturate(2.5) contrast(1.15) invert(1) hue-rotate(55deg); }
+}
+@media (max-width:1200px) {
+  .crm-login-brain { transform: translateX(-7vw); }
+  .crm-login-brain iframe { transform: scale(1.05); }
+}
+@media (max-width:900px) { .crm-login-story { display:none; } }
+@media (prefers-reduced-motion:reduce) { .crm-login-page * { scroll-behavior:auto !important; transition-duration:.01ms !important; animation-duration:.01ms !important; animation-iteration-count:1 !important; } }

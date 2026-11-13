@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-10",
+  "scope": "Implementer Chromium technical checks, not independent QA or visual approval",
+  "browser": "158.0.8127.18",
+  "checks": [
+    "SSR DOM empty/no time",
+    "real-time zero to four, each preceded by directional typing",
+    "pause typing freezes computed dot transforms/opacity",
+    "Enter pause/resume/reset and empty reset",
+    "published summaries and times synchronized, outgoing Tú prefix",
+    "offscreen and controlled hidden event active-clock freeze",
+    "one-shot completion no replay",
+    "reduced-motion final with zero setInterval on fresh load",
+    "breakpoints no preview/window overflow, 44px controls, no CSS motion"
+  ],
+  "heights": [
+    921.796875,
+    921.796875,
+    921.796875,
+    921.796875
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "height": 1368.09375,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "motion": 0,
+      "buttons": [
+        {
+          "width": 104,
+          "height": 44
+        },
+        {
+          "width": 125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "height": 1347.59375,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "motion": 0,
+      "buttons": [
+        {
+          "width": 104,
+          "height": 44
+        },
+        {
+          "width": 125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "width": 810,
+      "height": 1008.796875,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "motion": 0,
+      "buttons": [
+        {
+          "width": 104,
+          "height": 44
+        },
+        {
+          "width": 125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 1008.796875,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "motion": 0,
+      "buttons": [
+        {
+          "width": 104,
+          "height": 44
+        },
+        {
+          "width": 125,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 921.796875,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "motion": 0,
+      "buttons": [
+        {
+          "width": 104,
+          "height": 44
+        },
+        {
+          "width": 125,
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

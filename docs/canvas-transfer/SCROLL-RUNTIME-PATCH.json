@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-10",
+  "source": "hermes-canvas-transfer-001-2026-11-10.zip :: demos/dala/js/theme.js",
+  "destination": "public/demos/dala/js/theme.js",
+  "beforeSha256": "15d3adb4ad6450142a5fdfea7ab7d533a4055bc1590d2e2aec3a68cef259a8f8",
+  "afterSha256": "e521e784af6da52af2b71468549c3c1af9130fbc247db1d4030aaec208cd2b31",
+  "patches": [
+    {
+      "before": "this.globalUniforms.uTime.value=e,this._updateCamera()",
+      "after": "Number.isFinite(u.hermesHeroProgress)&&(u.sectionProgress=u.hermesHeroProgress,u.hermesHeroRenderedProgress=u.sectionProgress),this.globalUniforms.uTime.value=e,this._updateCamera()"
+    },
+    {
+      "before": "u.WebGL.onEnterSite(),void 0/* HERMES-CANVAS-TRANSFER-001",
+      "after": "u.WebGL.onEnterSite(),Object.defineProperty(window,\"__HERMES_HERO_SCROLL__\",{value:Object.freeze({get ready(){return !!(u.WebGL._cones._loaded&&u.WebGL._cones._hasRendered)},setProgress(e){if(\"number\"!==typeof e||!Number.isFinite(e))return false;return u.hermesHeroProgress=Math.max(0,Math.min(2.2,e)),true},get state(){const e=u.WebGL._cones;return Object.freeze({progress:u.hermesHeroRenderedProgress,explode:e._material.customUniforms[13].value,simulationExplode:e._simulationPos.material.uniforms.u_explode.value,springExplode:e._simulationSpring.material.uniforms.u_explode.value,hasRendered:e._hasRendered,time:u.WebGL.globalUniforms.uTime.value})}})}),void 0/* HERMES-CANVAS-TRANSFER-001"
+    }
+  ],
+  "scope": "Local copy only; original renderer pipeline. Intercom neutralization remains intact. API frozen, no auth or network access."
+}

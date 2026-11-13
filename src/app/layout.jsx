@@ -1,9 +1,9 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Hermes CRM | Conversaciones que avanzan",
+  title: "Hermes ARM | Conversaciones con supervisión humana",
   description:
-    "Conoce Hermes CRM: conversaciones de WhatsApp, oportunidades comerciales y seguimiento en un mismo espacio de trabajo.",
+    "Conozca Hermes ARM: conversaciones de WhatsApp y contexto comercial con asistencia conversacional y atención humana según cada caso.",
   robots: { index: false, follow: false },
 };
 

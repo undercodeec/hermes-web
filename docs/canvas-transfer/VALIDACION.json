@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-10",
+  "branch": "main",
+  "head": "56e6a217907376e7d53707b2521a815aaa83144c",
+  "checks": [
+    {
+      "syntax": "demos\\dala\\js\\manifest.js",
+      "pass": true
+    },
+    {
+      "syntax": "demos\\dala\\js\\theme.js",
+      "pass": true
+    },
+    {
+      "syntax": "demos\\dala\\js\\vendor.js",
+      "pass": true
+    }
+  ],
+  "resourceReferencesResolved": 37,
+  "modelChecks": [
+    {
+      "file": "py-lod1.glb",
+      "externalUris": false,
+      "compressionExtensions": false
+    },
+    {
+      "file": "py-lod2.glb",
+      "externalUris": false,
+      "compressionExtensions": false
+    },
+    {
+      "file": "py-lod3.glb",
+      "externalUris": false,
+      "compressionExtensions": false
+    },
+    {
+      "file": "py-lod7.glb",
+      "externalUris": false,
+      "compressionExtensions": false
+    },
+    {
+      "file": "py-monbile.glb",
+      "externalUris": false,
+      "compressionExtensions": false
+    }
+  ],
+  "activeIntercomInCopiedTheme": false,
+  "intercomReplacements": 1,
+  "originalResourcesUnchanged": 39,
+  "syntaxWrapper": true,
+  "cspLocalOnlyAdded": true,
+  "browserRender": "Consultar browser-validation.json externo si existe; no se certifica igualdad visual",
+  "visualEquality": "No validada",
+  "licenses": "Pendientes; no certificadas"
+}

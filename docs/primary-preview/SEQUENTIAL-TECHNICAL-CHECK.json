@@ -1,0 +1,590 @@
+{
+  "scope": "Implementer technical regression, NOT independent QA or visual approval",
+  "duration": 47400,
+  "date": "2026-11-10",
+  "samples": [
+    {
+      "epoch": 0,
+      "selected": "lucia",
+      "ids": [],
+      "typing": "incoming",
+      "rows": 1,
+      "t": 50,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "lucia",
+      "ids": [
+        "lucia-0-0"
+      ],
+      "typing": null,
+      "rows": 1,
+      "t": 1739,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "lucia",
+      "ids": [
+        "lucia-0-0"
+      ],
+      "typing": "outgoing",
+      "rows": 1,
+      "t": 2125,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "lucia",
+      "ids": [
+        "lucia-0-0",
+        "lucia-0-1"
+      ],
+      "typing": null,
+      "rows": 1,
+      "t": 2992,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "lucia",
+      "ids": [
+        "lucia-0-0",
+        "lucia-0-1"
+      ],
+      "typing": "incoming",
+      "rows": 1,
+      "t": 3741,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "lucia",
+      "ids": [
+        "lucia-0-0",
+        "lucia-0-1",
+        "lucia-0-2"
+      ],
+      "typing": null,
+      "rows": 1,
+      "t": 4500,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "lucia",
+      "ids": [
+        "lucia-0-0",
+        "lucia-0-1",
+        "lucia-0-2"
+      ],
+      "typing": "outgoing",
+      "rows": 1,
+      "t": 6140,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "lucia",
+      "ids": [
+        "lucia-0-0",
+        "lucia-0-1",
+        "lucia-0-2",
+        "lucia-0-3"
+      ],
+      "typing": null,
+      "rows": 1,
+      "t": 6569,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "lucia",
+      "ids": [
+        "lucia-0-0",
+        "lucia-0-1",
+        "lucia-0-2",
+        "lucia-0-3"
+      ],
+      "typing": null,
+      "rows": 2,
+      "t": 8911,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "mateo",
+      "ids": [
+        "mateo-0-0",
+        "mateo-0-1",
+        "mateo-0-2"
+      ],
+      "typing": null,
+      "rows": 2,
+      "t": 12755,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "mateo",
+      "ids": [
+        "mateo-0-0",
+        "mateo-0-1",
+        "mateo-0-2"
+      ],
+      "typing": "outgoing",
+      "rows": 2,
+      "t": 13484,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "mateo",
+      "ids": [
+        "mateo-0-0",
+        "mateo-0-1",
+        "mateo-0-2",
+        "mateo-0-3"
+      ],
+      "typing": null,
+      "rows": 2,
+      "t": 13834,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "mateo",
+      "ids": [
+        "mateo-0-0",
+        "mateo-0-1",
+        "mateo-0-2",
+        "mateo-0-3"
+      ],
+      "typing": null,
+      "rows": 3,
+      "t": 15973,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "mateo",
+      "ids": [
+        "mateo-0-0",
+        "mateo-0-1",
+        "mateo-0-2",
+        "mateo-0-3"
+      ],
+      "typing": null,
+      "rows": 4,
+      "t": 23038,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "mateo",
+      "ids": [
+        "mateo-0-0",
+        "mateo-0-1",
+        "mateo-0-2",
+        "mateo-0-3"
+      ],
+      "typing": null,
+      "rows": 5,
+      "t": 30611,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 0,
+      "selected": "mateo",
+      "ids": [
+        "mateo-0-0",
+        "mateo-0-1",
+        "mateo-0-2",
+        "mateo-0-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 38185,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "mateo",
+      "ids": [
+        "mateo-0-0",
+        "mateo-0-1",
+        "mateo-0-2",
+        "mateo-0-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 47771,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "sofia",
+      "ids": [
+        "sofia-0-0",
+        "sofia-0-1",
+        "sofia-0-2",
+        "sofia-0-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 54750,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "sofia",
+      "ids": [
+        "sofia-0-0",
+        "sofia-0-1",
+        "sofia-0-2",
+        "sofia-0-3"
+      ],
+      "typing": "incoming",
+      "rows": 6,
+      "t": 62716,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "sofia",
+      "ids": [
+        "sofia-1-0",
+        "sofia-0-1",
+        "sofia-0-2",
+        "sofia-0-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 63405,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "sofia",
+      "ids": [
+        "sofia-1-0",
+        "sofia-0-1",
+        "sofia-0-2",
+        "sofia-0-3"
+      ],
+      "typing": "outgoing",
+      "rows": 6,
+      "t": 64097,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "sofia",
+      "ids": [
+        "sofia-1-0",
+        "sofia-1-1",
+        "sofia-0-2",
+        "sofia-0-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 65446,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "sofia",
+      "ids": [
+        "sofia-1-0",
+        "sofia-1-1",
+        "sofia-0-2",
+        "sofia-0-3"
+      ],
+      "typing": "incoming",
+      "rows": 6,
+      "t": 66501,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "sofia",
+      "ids": [
+        "sofia-1-0",
+        "sofia-1-1",
+        "sofia-1-2",
+        "sofia-0-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 67188,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "sofia",
+      "ids": [
+        "sofia-1-0",
+        "sofia-1-1",
+        "sofia-1-2",
+        "sofia-0-3"
+      ],
+      "typing": "outgoing",
+      "rows": 6,
+      "t": 67880,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "sofia",
+      "ids": [
+        "sofia-1-0",
+        "sofia-1-1",
+        "sofia-1-2",
+        "sofia-1-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 68583,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "andres",
+      "ids": [
+        "andres-0-0",
+        "andres-0-1",
+        "andres-0-2",
+        "andres-0-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 69912,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "lucia",
+      "ids": [
+        "lucia-1-0",
+        "lucia-1-1",
+        "lucia-1-2",
+        "lucia-1-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 75417,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "mateo",
+      "ids": [
+        "mateo-1-0",
+        "mateo-1-1",
+        "mateo-1-2",
+        "mateo-1-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 79426,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "sofia",
+      "ids": [
+        "sofia-1-0",
+        "sofia-1-1",
+        "sofia-1-2",
+        "sofia-1-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 85233,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 1,
+      "selected": "diego",
+      "ids": [
+        "diego-1-0",
+        "diego-1-1",
+        "diego-1-2",
+        "diego-1-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 91450,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 2,
+      "selected": "diego",
+      "ids": [
+        "diego-1-0",
+        "diego-1-1",
+        "diego-1-2",
+        "diego-1-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 95144,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 2,
+      "selected": "valentina",
+      "ids": [
+        "valentina-1-0",
+        "valentina-1-1",
+        "valentina-1-2",
+        "valentina-1-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 96686,
+      "height": 1074.796875
+    },
+    {
+      "epoch": 2,
+      "selected": "andres",
+      "ids": [
+        "andres-1-0",
+        "andres-1-1",
+        "andres-1-2",
+        "andres-1-3"
+      ],
+      "typing": null,
+      "rows": 6,
+      "t": 102415,
+      "height": 1074.796875
+    }
+  ],
+  "histories": {
+    "lucia": [
+      "Hola, busco un sofá para una sala pequeña.10:10",
+      "Hola, Lucía. ¿Qué espacio tienes para el sofá?10:16",
+      "Tengo unos 2 metros en la sala.10:22",
+      "Gracias, Lucía. Anoto esa medida para revisar la consulta.10:28"
+    ],
+    "mateo": [
+      "Hola, estoy buscando una mesa de comedor.10:11",
+      "Hola, Mateo. ¿Para cuántas personas sería?10:17",
+      "Para cuatro, pero el espacio es reducido.10:23",
+      "Gracias, Mateo. Anoto esas referencias en tu consulta.10:29"
+    ],
+    "sofia": [
+      "Hola, busco un escritorio.10:12",
+      "Hola, Sofía. ¿Qué colocarías sobre el escritorio?10:18",
+      "Un portátil y una pantalla.10:24",
+      "Gracias, Sofía. Anoto ese detalle para revisar la consulta.10:30"
+    ],
+    "diego": [
+      "Hola, estoy buscando una estantería.10:13",
+      "Hola, Diego. ¿Dónde la colocarías?10:19",
+      "En una pared estrecha del estudio.10:25",
+      "Gracias, Diego. Anoto la ubicación en tu consulta.10:31"
+    ],
+    "valentina": [
+      "Hola, busco una cómoda.10:14",
+      "Hola, Valentina. ¿Tienes alguna medida de referencia?10:20",
+      "Tengo aproximadamente 1 metro de ancho.10:26",
+      "Gracias, Valentina. Anoto esa medida de referencia.10:32"
+    ],
+    "andres": [
+      "Hola, estoy buscando una mesa auxiliar.10:15",
+      "Hola, Andrés. ¿Dónde la usarías?10:21",
+      "Junto al sofá, para colocar una lámpara.10:27",
+      "Gracias, Andrés. Registro ese uso en tu consulta.10:33"
+    ]
+  },
+  "focusDuringAutoplay": "andres",
+  "responsive": [
+    {
+      "width": 320,
+      "height": 480,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "animations": 0,
+      "cropped": false,
+      "minRowHeight": 100,
+      "listDisplay": "block"
+    },
+    {
+      "width": 375,
+      "height": 1000,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "animations": 0,
+      "cropped": false,
+      "minRowHeight": 100,
+      "listDisplay": "block"
+    },
+    {
+      "width": 640,
+      "height": 280,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "animations": 0,
+      "cropped": false,
+      "minRowHeight": 100,
+      "listDisplay": "block"
+    },
+    {
+      "width": 810,
+      "height": 1000,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "animations": 0,
+      "cropped": false,
+      "minRowHeight": 117.375,
+      "listDisplay": "block"
+    },
+    {
+      "width": 1024,
+      "height": 1000,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "animations": 0,
+      "cropped": false,
+      "minRowHeight": 117.375,
+      "listDisplay": "block"
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "overflow": 0,
+      "windowOverflow": 0,
+      "animations": 0,
+      "cropped": false,
+      "minRowHeight": 117.375,
+      "listDisplay": "block"
+    }
+  ],
+  "contrast": {
+    "min": 4.762387205756863,
+    "failures": [],
+    "runs": 70
+  },
+  "status": "passed",
+  "browser": "158.0.8127.18",
+  "pageErrors": [],
+  "consoleErrors": [],
+  "externalRequests": [],
+  "clock": "real performance.now, 50ms interval; >50.5s active time",
+  "checks": [
+    "SSR one row and no published messages",
+    "six selectable chats; first arrivals accumulate rows",
+    "native focus/hover never freeze clock",
+    "bell open does not read; select reads; Escape restores focus; outside closes",
+    "incoming-only badge and per-chat panel",
+    "hidden controlled/offscreen freeze without reset/catchup",
+    "real round boundary preserves selection, focus, histories, six rows",
+    "static setting stops motion and clock; all six full histories accessible",
+    "fresh reduced-motion: zero intervals",
+    "responsive low/regular widths no overflow/crops; native rows >=44px",
+    "visible text computed contrast >=4.5; opacity 1",
+    "pageerror and console.error instrumented"
+  ]
+}

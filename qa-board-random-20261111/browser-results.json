@@ -1,0 +1,275 @@
+{
+  "intervalo_prueba_ms": 1300,
+  "intervalo_real_ms": 6000,
+  "rng": "Math.random sin modificar",
+  "results": {
+    "1440": [
+      {
+        "id": "Mintlify",
+        "origen": "Ganado",
+        "destino": "Pendiente",
+        "conteos": {
+          "Potencial": 4,
+          "Pendiente": 4,
+          "Ganado": 4,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Rippling",
+        "origen": "Pendiente",
+        "destino": "Potencial",
+        "conteos": {
+          "Potencial": 5,
+          "Pendiente": 3,
+          "Ganado": 4,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Footprint",
+        "origen": "Ganado",
+        "destino": "Potencial",
+        "conteos": {
+          "Potencial": 6,
+          "Pendiente": 3,
+          "Ganado": 3,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Stripe",
+        "origen": "Ganado",
+        "destino": "Pendiente",
+        "conteos": {
+          "Potencial": 6,
+          "Pendiente": 4,
+          "Ganado": 2,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Superhuman",
+        "origen": "Perdido",
+        "destino": "Ganado",
+        "conteos": {
+          "Potencial": 6,
+          "Pendiente": 4,
+          "Ganado": 3,
+          "Perdido": 1
+        }
+      },
+      {
+        "id": "Mintlify",
+        "origen": "Pendiente",
+        "destino": "Perdido",
+        "conteos": {
+          "Potencial": 6,
+          "Pendiente": 3,
+          "Ganado": 3,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Framer",
+        "origen": "Pendiente",
+        "destino": "Ganado",
+        "conteos": {
+          "Potencial": 6,
+          "Pendiente": 2,
+          "Ganado": 4,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Rippling",
+        "origen": "Potencial",
+        "destino": "Pendiente",
+        "conteos": {
+          "Potencial": 5,
+          "Pendiente": 3,
+          "Ganado": 4,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Lever",
+        "origen": "Ganado",
+        "destino": "Perdido",
+        "conteos": {
+          "Potencial": 5,
+          "Pendiente": 3,
+          "Ganado": 3,
+          "Perdido": 3
+        }
+      },
+      {
+        "id": "Rows.com",
+        "origen": "Perdido",
+        "destino": "Potencial",
+        "conteos": {
+          "Potencial": 6,
+          "Pendiente": 3,
+          "Ganado": 3,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Linear",
+        "origen": "Potencial",
+        "destino": "Perdido",
+        "conteos": {
+          "Potencial": 5,
+          "Pendiente": 3,
+          "Ganado": 3,
+          "Perdido": 3
+        }
+      },
+      {
+        "id": "Pulley",
+        "origen": "Potencial",
+        "destino": "Perdido",
+        "conteos": {
+          "Potencial": 4,
+          "Pendiente": 3,
+          "Ganado": 3,
+          "Perdido": 4
+        }
+      }
+    ],
+    "390": [
+      {
+        "id": "Rows.com",
+        "origen": "Perdido",
+        "destino": "Potencial",
+        "conteos": {
+          "Potencial": 5,
+          "Pendiente": 3,
+          "Ganado": 5,
+          "Perdido": 1
+        }
+      },
+      {
+        "id": "Linear",
+        "origen": "Potencial",
+        "destino": "Pendiente",
+        "conteos": {
+          "Potencial": 4,
+          "Pendiente": 4,
+          "Ganado": 5,
+          "Perdido": 1
+        }
+      },
+      {
+        "id": "Loops",
+        "origen": "Ganado",
+        "destino": "Potencial",
+        "conteos": {
+          "Potencial": 5,
+          "Pendiente": 4,
+          "Ganado": 4,
+          "Perdido": 1
+        }
+      },
+      {
+        "id": "Lever",
+        "origen": "Ganado",
+        "destino": "Perdido",
+        "conteos": {
+          "Potencial": 5,
+          "Pendiente": 4,
+          "Ganado": 3,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Superhuman",
+        "origen": "Perdido",
+        "destino": "Ganado",
+        "conteos": {
+          "Potencial": 5,
+          "Pendiente": 4,
+          "Ganado": 4,
+          "Perdido": 1
+        }
+      },
+      {
+        "id": "Carta",
+        "origen": "Potencial",
+        "destino": "Ganado",
+        "conteos": {
+          "Potencial": 4,
+          "Pendiente": 4,
+          "Ganado": 5,
+          "Perdido": 1
+        }
+      },
+      {
+        "id": "Superhuman",
+        "origen": "Ganado",
+        "destino": "Perdido",
+        "conteos": {
+          "Potencial": 4,
+          "Pendiente": 4,
+          "Ganado": 4,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Framer",
+        "origen": "Pendiente",
+        "destino": "Ganado",
+        "conteos": {
+          "Potencial": 4,
+          "Pendiente": 3,
+          "Ganado": 5,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Rippling",
+        "origen": "Pendiente",
+        "destino": "Ganado",
+        "conteos": {
+          "Potencial": 4,
+          "Pendiente": 2,
+          "Ganado": 6,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Mailchimp",
+        "origen": "Potencial",
+        "destino": "Pendiente",
+        "conteos": {
+          "Potencial": 3,
+          "Pendiente": 3,
+          "Ganado": 6,
+          "Perdido": 2
+        }
+      },
+      {
+        "id": "Slack",
+        "origen": "Pendiente",
+        "destino": "Perdido",
+        "conteos": {
+          "Potencial": 3,
+          "Pendiente": 2,
+          "Ganado": 6,
+          "Perdido": 3
+        }
+      },
+      {
+        "id": "Footprint",
+        "origen": "Ganado",
+        "destino": "Pendiente",
+        "conteos": {
+          "Potencial": 3,
+          "Pendiente": 3,
+          "Ganado": 5,
+          "Perdido": 3
+        }
+      }
+    ]
+  }
+}

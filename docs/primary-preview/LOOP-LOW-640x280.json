@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "scope": "Implementer Chromium check, not independent QA",
+  "viewport": {
+    "width": 640,
+    "height": 280
+  },
+  "surface": {
+    "figureHeight": 1176.796875,
+    "viewportHeight": 280,
+    "wholeFigureRatio": 0.16688574653123547,
+    "availableSurfaceRatio": 0.7013950892857143
+  },
+  "focusedElapsed": 1600,
+  "offscreenElapsed": 3000,
+  "returnElapsed": 3000,
+  "errors": [],
+  "checks": [
+    "real font Inter loaded",
+    "autoplay low available-surface hysteresis",
+    "stationary centered pointer after scroll does not pause",
+    "figure keyboard focus freezes and blur resumes",
+    "touch movement does not sticky-pause",
+    "offscreen pauses without catchup",
+    "no controls or overflow"
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "results": {
+    "320": {
+      "width": 320,
+      "height": 568,
+      "client": 305,
+      "scroll": 305,
+      "hero": {
+        "left": 0,
+        "right": 305,
+        "top": 60,
+        "bottom": 561.59375,
+        "width": 305,
+        "height": 501.59375
+      },
+      "parts": [
+        {
+          "tag": "H1",
+          "text": "De WhatsAppal siguiente paso.",
+          "left": 16,
+          "right": 289,
+          "top": 178,
+          "bottom": 253.59375,
+          "width": 273,
+          "height": 75.59375
+        },
+        {
+          "tag": "P",
+          "text": "Conecte las consultas de WhatsApp con el seguimiento comercial. Su equipo puede revisar la conversación y el contexto del lead antes de continuar.",
+          "left": 16,
+          "right": 289,
+          "top": 281.59375,
+          "bottom": 431.59375,
+          "width": 273,
+          "height": 150
+        },
+        {
+          "tag": "A",
+          "text": "Conversemos",
+          "left": 50.421875,
+          "right": 254.5625,
+          "top": 471.59375,
+          "bottom": 521.59375,
+          "width": 204.140625,
+          "height": 50
+        }
+      ],
+      "clipped": [],
+      "title": "Hermes CRM | De WhatsApp al seguimiento comercial",
+      "description": "Conozca Hermes CRM: conversaciones de WhatsApp, contexto de leads y seguimiento comercial con asistencia conversacional y atención humana.",
+      "robots": "noindex, nofollow"
+    },
+    "390": {
+      "width": 390,
+      "height": 844,
+      "client": 375,
+      "scroll": 375,
+      "hero": {
+        "left": 0,
+        "right": 375,
+        "top": 60,
+        "bottom": 511.59375,
+        "width": 375,
+        "height": 451.59375
+      },
+      "parts": [
+        {
+          "tag": "H1",
+          "text": "De WhatsAppal siguiente paso.",
+          "left": 16,
+          "right": 359,
+          "top": 178,
+          "bottom": 253.59375,
+          "width": 343,
+          "height": 75.59375
+        },
+        {
+          "tag": "P",
+          "text": "Conecte las consultas de WhatsApp con el seguimiento comercial. Su equipo puede revisar la conversación y el contexto del lead antes de continuar.",
+          "left": 16,
+          "right": 359,
+          "top": 281.59375,
+          "bottom": 381.59375,
+          "width": 343,
+          "height": 100
+        },
+        {
+          "tag": "A",
+          "text": "Conversemos",
+          "left": 85.421875,
+          "right": 289.5625,
+          "top": 421.59375,
+          "bottom": 471.59375,
+          "width": 204.140625,
+          "height": 50
+        }
+      ],
+      "clipped": [],
+      "title": "Hermes CRM | De WhatsApp al seguimiento comercial",
+      "description": "Conozca Hermes CRM: conversaciones de WhatsApp, contexto de leads y seguimiento comercial con asistencia conversacional y atención humana.",
+      "robots": "noindex, nofollow"
+    },
+    "768": {
+      "width": 768,
+      "height": 1024,
+      "client": 753,
+      "scroll": 753,
+      "hero": {
+        "left": 0,
+        "right": 753,
+        "top": 60,
+        "bottom": 473.796875,
+        "width": 753,
+        "height": 413.796875
+      },
+      "parts": [
+        {
+          "tag": "H1",
+          "text": "De WhatsAppal siguiente paso.",
+          "left": 136.953125,
+          "right": 616.03125,
+          "top": 178,
+          "bottom": 215.796875,
+          "width": 479.078125,
+          "height": 37.796875
+        },
+        {
+          "tag": "P",
+          "text": "Conecte las consultas de WhatsApp con el seguimiento comercial. Su equipo puede revisar la conversación y el contexto del lead antes de continuar.",
+          "left": 201.484375,
+          "right": 551.484375,
+          "top": 243.796875,
+          "bottom": 343.796875,
+          "width": 350,
+          "height": 100
+        },
+        {
+          "tag": "A",
+          "text": "Conversemos",
+          "left": 274.421875,
+          "right": 478.5625,
+          "top": 383.796875,
+          "bottom": 433.796875,
+          "width": 204.140625,
+          "height": 50
+        }
+      ],
+      "clipped": [],
+      "title": "Hermes CRM | De WhatsApp al seguimiento comercial",
+      "description": "Conozca Hermes CRM: conversaciones de WhatsApp, contexto de leads y seguimiento comercial con asistencia conversacional y atención humana.",
+      "robots": "noindex, nofollow"
+    },
+    "810": {
+      "width": 810,
+      "height": 900,
+      "client": 795,
+      "scroll": 795,
+      "hero": {
+        "left": 0,
+        "right": 795,
+        "top": 90,
+        "bottom": 720,
+        "width": 795,
+        "height": 630
+      },
+      "parts": [
+        {
+          "tag": "H1",
+          "text": "De WhatsAppal siguiente paso.",
+          "left": 192,
+          "right": 603,
+          "top": 259.203125,
+          "bottom": 376.796875,
+          "width": 411,
+          "height": 117.59375
+        },
+        {
+          "tag": "P",
+          "text": "Conecte las consultas de WhatsApp con el seguimiento comercial. Su equipo puede revisar la conversación y el contexto del lead antes de continuar.",
+          "left": 197.5,
+          "right": 597.5,
+          "top": 412.796875,
+          "bottom": 524.796875,
+          "width": 400,
+          "height": 112
+        },
+        {
+          "tag": "A",
+          "text": "Conversemos",
+          "left": 285.4375,
+          "right": 509.5625,
+          "top": 564.796875,
+          "bottom": 620.796875,
+          "width": 224.125,
+          "height": 56
+        }
+      ],
+      "clipped": [],
+      "title": "Hermes CRM | De WhatsApp al seguimiento comercial",
+      "description": "Conozca Hermes CRM: conversaciones de WhatsApp, contexto de leads y seguimiento comercial con asistencia conversacional y atención humana.",
+      "robots": "noindex, nofollow"
+    },
+    "1024": {
+      "width": 1024,
+      "height": 900,
+      "client": 1009,
+      "scroll": 1009,
+      "hero": {
+        "left": 0,
+        "right": 1009,
+        "top": 90,
+        "bottom": 750,
+        "width": 1009,
+        "height": 660
+      },
+      "parts": [
+        {
+          "tag": "H1",
+          "text": "De WhatsAppal siguiente paso.",
+          "left": 299,
+          "right": 710,
+          "top": 274.203125,
+          "bottom": 391.796875,
+          "width": 411,
+          "height": 117.59375
+        },
+        {
+          "tag": "P",
+          "text": "Conecte las consultas de WhatsApp con el seguimiento comercial. Su equipo puede revisar la conversación y el contexto del lead antes de continuar.",
+          "left": 304.5,
+          "right": 704.5,
+          "top": 427.796875,
+          "bottom": 539.796875,
+          "width": 400,
+          "height": 112
+        },
+        {
+          "tag": "A",
+          "text": "Conversemos",
+          "left": 392.4375,
+          "right": 616.5625,
+          "top": 579.796875,
+          "bottom": 635.796875,
+          "width": 224.125,
+          "height": 56
+        }
+      ],
+      "clipped": [],
+      "title": "Hermes CRM | De WhatsApp al seguimiento comercial",
+      "description": "Conozca Hermes CRM: conversaciones de WhatsApp, contexto de leads y seguimiento comercial con asistencia conversacional y atención humana.",
+      "robots": "noindex, nofollow"
+    },
+    "1440": {
+      "width": 1440,
+      "height": 900,
+      "client": 1425,
+      "scroll": 1425,
+      "hero": {
+        "left": 0,
+        "right": 1425,
+        "top": 90,
+        "bottom": 750,
+        "width": 1425,
+        "height": 660
+      },
+      "parts": [
+        {
+          "tag": "H1",
+          "text": "De WhatsAppal siguiente paso.",
+          "left": 416.296875,
+          "right": 1008.6875,
+          "top": 249.84375,
+          "bottom": 416.15625,
+          "width": 592.390625,
+          "height": 166.3125
+        },
+        {
+          "tag": "P",
+          "text": "Conecte las consultas de WhatsApp con el seguimiento comercial. Su equipo puede revisar la conversación y el contexto del lead antes de continuar.",
+          "left": 512.484375,
+          "right": 912.484375,
+          "top": 452.15625,
+          "bottom": 564.15625,
+          "width": 400,
+          "height": 112
+        },
+        {
+          "tag": "A",
+          "text": "Conversemos",
+          "left": 600.4375,
+          "right": 824.5625,
+          "top": 604.15625,
+          "bottom": 660.15625,
+          "width": 224.125,
+          "height": 56
+        }
+      ],
+      "clipped": [],
+      "title": "Hermes CRM | De WhatsApp al seguimiento comercial",
+      "description": "Conozca Hermes CRM: conversaciones de WhatsApp, contexto de leads y seguimiento comercial con asistencia conversacional y atención humana.",
+      "robots": "noindex, nofollow"
+    }
+  },
+  "pageerrors": []
+}

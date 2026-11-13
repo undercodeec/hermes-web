@@ -1,0 +1,50 @@
+{
+  "1440": {
+    "tab": {
+      "tag": "A",
+      "cls": "skip-link",
+      "rect": {
+        "x": 16,
+        "y": 12,
+        "width": 179.515625,
+        "height": 48,
+        "top": 12,
+        "right": 195.515625,
+        "bottom": 60,
+        "left": 16
+      },
+      "visibility": "visible"
+    },
+    "board": {
+      "ghosts": [
+        "Rows.com"
+      ],
+      "button": "Pausar animación",
+      "boardReveal": false
+    }
+  },
+  "390": {
+    "tab": {
+      "tag": "A",
+      "cls": "skip-link",
+      "rect": {
+        "x": 16,
+        "y": 12,
+        "width": 179.515625,
+        "height": 48,
+        "top": 12,
+        "right": 195.515625,
+        "bottom": 60,
+        "left": 16
+      },
+      "visibility": "visible"
+    },
+    "board": {
+      "ghosts": [
+        "Mailchimp"
+      ],
+      "button": "Pausar animación",
+      "boardReveal": false
+    }
+  }
+}

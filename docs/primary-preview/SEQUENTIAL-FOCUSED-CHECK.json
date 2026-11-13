@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-10",
+  "scope": "Implementer focused real-time Chromium, not independent QA or visual approval",
+  "status": "passed",
+  "browser": "158.0.8127.18",
+  "activeTime": 49000,
+  "sampleCount": 985,
+  "rowTransitions": [
+    {
+      "t": 50,
+      "run": 0,
+      "rows": 1,
+      "selected": "lucia",
+      "messages": 0
+    },
+    {
+      "t": 8150,
+      "run": 0,
+      "rows": 2,
+      "selected": "lucia",
+      "messages": 4
+    },
+    {
+      "t": 15550,
+      "run": 0,
+      "rows": 3,
+      "selected": "mateo",
+      "messages": 4
+    },
+    {
+      "t": 22950,
+      "run": 0,
+      "rows": 4,
+      "selected": "mateo",
+      "messages": 4
+    },
+    {
+      "t": 30350,
+      "run": 0,
+      "rows": 5,
+      "selected": "mateo",
+      "messages": 4
+    },
+    {
+      "t": 37750,
+      "run": 0,
+      "rows": 6,
+      "selected": "mateo",
+      "messages": 4
+    }
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "overflow": 0
+    },
+    {
+      "width": 640,
+      "overflow": 0
+    },
+    {
+      "width": 810,
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "overflow": 0
+    }
+  ],
+  "errors": [],
+  "checks": [
+    "rows appear sequentially at new timestamps",
+    "six rows retained across cycle",
+    "manual selection and four-message bounded history retained",
+    "notification separator, Escape and focus restoration",
+    "explicit static freeze, no typing",
+    "reduced motion and static responsive no horizontal overflow"
+  ]
+}

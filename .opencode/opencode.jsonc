@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agents": {
+    "hermes-coordinator": { "disabled": true },
+    "hermes-backend": { "disabled": true },
+    "hermes-ai": { "disabled": true },
+    "hermes-database": { "disabled": true },
+    "hermes-security": { "disabled": true },
+    "hermes-qa": { "disabled": true },
+    "hermes-release": { "disabled": true }
+  }
+}

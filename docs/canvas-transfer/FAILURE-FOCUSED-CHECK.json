@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-10",
+  "scope": "Implementer fault-injected Chromium, not independent QA or visual approval",
+  "status": "passed",
+  "fault": "iframe contentWindow getter denied after bridge ready; bridge emits unavailable",
+  "heroRemoved": true,
+  "returnRemoved": true,
+  "compact": {
+    "height": 64,
+    "sticky": "relative",
+    "failed": true
+  },
+  "latchedAfterRevisitAndMediaChange": true,
+  "errors": []
+}

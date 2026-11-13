@@ -1,0 +1,146 @@
+{
+  "1440": {
+    "initial": {
+      "width": 1440,
+      "scroll": 0,
+      "events": [],
+      "hero": true,
+      "board": true
+    },
+    "scroll_events": [
+      {
+        "tag": "DIV",
+        "cls": "detail-copy",
+        "id": "",
+        "text": "ATRIBUCIÓN DISPONIBLEReconoce el origende la "
+      },
+      {
+        "tag": "DIV",
+        "cls": "detail-visual source-visual",
+        "id": "",
+        "text": "Origen de la conversaciónLCConsulta nuevaWhat"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "id": "features-title",
+        "text": "Un espacio. Más contexto."
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "id": "",
+        "text": "Capacidades que conectan la conversación con "
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "feature-card feature-conversation",
+        "id": "",
+        "text": "Inbox · WhatsAppContacto inicialQuisiera cono"
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "feature-card feature-source",
+        "id": "",
+        "text": "Origen de la conversaciónLCConsulta nuevaWhat"
+      }
+    ],
+    "anchor": {
+      "hash": "#capacidades",
+      "active": "BODY",
+      "focusVisible": "visible",
+      "targetEvents": 0,
+      "headingVisible": true
+    },
+    "focus": {
+      "focused": "journey-title",
+      "events": 0,
+      "opacity": "1"
+    },
+    "failure": {
+      "visible": "visible",
+      "opacity": "1",
+      "board": true
+    },
+    "reduced": {
+      "reduced": true,
+      "events": 0,
+      "visible": "visible"
+    },
+    "nojs": {
+      "visible": "visible",
+      "opacity": "1",
+      "display": "block",
+      "text": "Un espacio. Más contexto.",
+      "script": "undefined",
+      "onscreen": true,
+      "board": true
+    }
+  },
+  "390": {
+    "initial": {
+      "width": 390,
+      "scroll": 0,
+      "events": [],
+      "hero": true,
+      "board": true
+    },
+    "scroll_events": [
+      {
+        "tag": "DIV",
+        "cls": "detail-visual source-visual",
+        "id": "",
+        "text": "Origen de la conversaciónLCConsulta nuevaWhat"
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "id": "features-title",
+        "text": "Un espacio. Más contexto."
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "id": "",
+        "text": "Capacidades que conectan la conversación con "
+      },
+      {
+        "tag": "ARTICLE",
+        "cls": "feature-card feature-conversation",
+        "id": "",
+        "text": "Inbox · WhatsAppContacto inicialQuisiera cono"
+      }
+    ],
+    "anchor": {
+      "hash": "#capacidades",
+      "active": "BODY",
+      "focusVisible": "visible",
+      "targetEvents": 0,
+      "headingVisible": true
+    },
+    "focus": {
+      "focused": "journey-title",
+      "events": 0,
+      "opacity": "1"
+    },
+    "failure": {
+      "visible": "visible",
+      "opacity": "1",
+      "board": true
+    },
+    "reduced": {
+      "reduced": true,
+      "events": 0,
+      "visible": "visible"
+    },
+    "nojs": {
+      "visible": "visible",
+      "opacity": "1",
+      "display": "block",
+      "text": "Un espacio. Más contexto.",
+      "script": "undefined",
+      "onscreen": true,
+      "board": true
+    }
+  }
+}

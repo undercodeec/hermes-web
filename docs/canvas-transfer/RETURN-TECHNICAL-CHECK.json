@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-10",
+  "scope": "Implementer technical Chromium, not independent QA or visual approval",
+  "status": "passed",
+  "browser": "158.0.8127.18",
+  "entry": {
+    "top": 468.515625,
+    "height": 1200,
+    "stickyTop": 468.515625,
+    "frames": 1,
+    "aria": "true",
+    "pointer": "none",
+    "transform": "translate3d(20.9655vw, 0vh, 0px)",
+    "progress": 0,
+    "explode": 0
+  },
+  "exit": {
+    "top": -178.484375,
+    "height": 1200,
+    "stickyTop": 0,
+    "frames": 1,
+    "aria": "true",
+    "pointer": "none",
+    "transform": "translate3d(0vw, -13.9358vh, 0px)",
+    "progress": 2.1899080659806294,
+    "explode": 0.9568036991481721
+  },
+  "reverse": {
+    "top": 409.515625,
+    "height": 1200,
+    "stickyTop": 409.515625,
+    "frames": 1,
+    "aria": "true",
+    "pointer": "none",
+    "transform": "translate3d(16.7655vw, 0vh, 0px)",
+    "progress": 0,
+    "explode": 0.0407042394649595
+  },
+  "checks": [
+    "deferred return, single runtime",
+    "original expansion and reverse",
+    "120vh stable track, sticky geometry",
+    "aria-hidden and no pointer hit test",
+    "controlled hidden unmount/remount",
+    "hero remount no simultaneous runtime",
+    "900px/reduced-motion zero track height and runtime",
+    "context loss latched fallback without retry"
+  ],
+  "errors": []
+}

@@ -1,0 +1,365 @@
+{
+  "note": "No se incluye a sí mismo ni SHA256SUMS para evitar autorreferencia; SHA256SUMS cubre INVENTARIO.json. El ZIP tiene hash externo.",
+  "files": [
+    {
+      "path": "AVISOS-LICENCIAS.md",
+      "bytes": 2021,
+      "sha256": "1ae52c54b25e5cc80f283a232fa851a62b22c27286d884b3a570c92ecb7a5c8b",
+      "generated": true
+    },
+    {
+      "path": "MODIFICACIONES.json",
+      "bytes": 1496,
+      "sha256": "2fdeeaed3cb0b08e0354661effdf046114d387375dffe5ff66d888dc0a97bea0",
+      "generated": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 7259,
+      "sha256": "823900411fba220a7d306b0d0e7a62cceb29da4bb1660b54fe848f481c140ffb",
+      "generated": true
+    },
+    {
+      "path": "VALIDACION.json",
+      "bytes": 1302,
+      "sha256": "e07b85d37534bd9fd4ed905bac1d6e4fec91fbe8a779c9d812825f4f01dbc3b5",
+      "generated": true
+    },
+    {
+      "path": "canvas-login.css",
+      "bytes": 1355,
+      "sha256": "27f0f5e3f537e1376ec64fc4da47f35826765b8b87d63a8805eb9c1016996eb7",
+      "generated": true
+    },
+    {
+      "path": "canvas-login.js",
+      "bytes": 2298,
+      "sha256": "0653465ca3b3f32cccc2f78811cc34d5830f8796cef6e95d480cc3ccd57d5167",
+      "generated": true
+    },
+    {
+      "path": "demos/dala/css/style.css",
+      "bytes": 97049,
+      "sha256": "22b14046a6dfeb78a17d37f796265bf1e0b8e2693d9d7f07e584ac9bfed9d03a",
+      "source": "public/demos/dala/css/style.css",
+      "sourceSha256": "22b14046a6dfeb78a17d37f796265bf1e0b8e2693d9d7f07e584ac9bfed9d03a",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/fonts/PPNeueMontreal-Light.woff",
+      "bytes": 61452,
+      "sha256": "3c90273baf1d7a558bb2b269f5c2d6b51dbe83245b87a48287a450d102dc7c41",
+      "source": "public/demos/dala/fonts/PPNeueMontreal-Light.woff",
+      "sourceSha256": "3c90273baf1d7a558bb2b269f5c2d6b51dbe83245b87a48287a450d102dc7c41",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/fonts/PPNeueMontreal-Light.woff2",
+      "bytes": 51024,
+      "sha256": "0546de8d009ae1a2fac024023206280cbc8db20cf7cddcb48f809e1ac0a62d75",
+      "source": "public/demos/dala/fonts/PPNeueMontreal-Light.woff2",
+      "sourceSha256": "0546de8d009ae1a2fac024023206280cbc8db20cf7cddcb48f809e1ac0a62d75",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/fonts/PPNeueMontreal-Regular.woff",
+      "bytes": 58256,
+      "sha256": "36f13e027917bd45396cafee24c59a15a7157e45494569230e9d56ea6ce6dbe5",
+      "source": "public/demos/dala/fonts/PPNeueMontreal-Regular.woff",
+      "sourceSha256": "36f13e027917bd45396cafee24c59a15a7157e45494569230e9d56ea6ce6dbe5",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/fonts/PPNeueMontreal-Regular.woff2",
+      "bytes": 48172,
+      "sha256": "0a032deac2aa0ca60c5697831dbf4f74580451c3a78b6e5dd2efe3825441ed49",
+      "source": "public/demos/dala/fonts/PPNeueMontreal-Regular.woff2",
+      "sourceSha256": "0a032deac2aa0ca60c5697831dbf4f74580451c3a78b6e5dd2efe3825441ed49",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/fonts/PPNeueMontreal-SemiBold.woff",
+      "bytes": 67352,
+      "sha256": "5070673f50b1e25feac2358ac9528c0645001b56f3a0cf2f593367f521a7c225",
+      "source": "public/demos/dala/fonts/PPNeueMontreal-SemiBold.woff",
+      "sourceSha256": "5070673f50b1e25feac2358ac9528c0645001b56f3a0cf2f593367f521a7c225",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/fonts/PPNeueMontreal-SemiBold.woff2",
+      "bytes": 55760,
+      "sha256": "2027c8d699f205afdbb26e6b969f90f39f561601efe9f949b96fe3d1bd7dd7f7",
+      "source": "public/demos/dala/fonts/PPNeueMontreal-SemiBold.woff2",
+      "sourceSha256": "2027c8d699f205afdbb26e6b969f90f39f561601efe9f949b96fe3d1bd7dd7f7",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/1.png",
+      "bytes": 65060,
+      "sha256": "592eda2c68a66c0f5baf4dd1dccb0443538444e4ebcb74fade53bb018241f45c",
+      "source": "public/demos/dala/images/1.png",
+      "sourceSha256": "592eda2c68a66c0f5baf4dd1dccb0443538444e4ebcb74fade53bb018241f45c",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/2.png",
+      "bytes": 54922,
+      "sha256": "5aca7de2ac8631018e3f0f8e015b0e6f172f08aafa56ab8745965c2f7216003b",
+      "source": "public/demos/dala/images/2.png",
+      "sourceSha256": "5aca7de2ac8631018e3f0f8e015b0e6f172f08aafa56ab8745965c2f7216003b",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/3.png",
+      "bytes": 45767,
+      "sha256": "4046b345b964ef7127b8a2bb50294d0ccc8512bf0e48efde97bbabb9279221a3",
+      "source": "public/demos/dala/images/3.png",
+      "sourceSha256": "4046b345b964ef7127b8a2bb50294d0ccc8512bf0e48efde97bbabb9279221a3",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/4.png",
+      "bytes": 56264,
+      "sha256": "51e695840a269fd0cc5a89635633cfde54d2c0422bac36a3072104565061ea9b",
+      "source": "public/demos/dala/images/4.png",
+      "sourceSha256": "51e695840a269fd0cc5a89635633cfde54d2c0422bac36a3072104565061ea9b",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/5.png",
+      "bytes": 59266,
+      "sha256": "039bd921f8ab5cb362d148b65dd42099948f9858cad3207c148d08b4b55f43c2",
+      "source": "public/demos/dala/images/5.png",
+      "sourceSha256": "039bd921f8ab5cb362d148b65dd42099948f9858cad3207c148d08b4b55f43c2",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/apple-touch-icon.png",
+      "bytes": 11809,
+      "sha256": "7c44978addc896a094f1021de3b0a87ec819bd803901574d74201c059efa8dc1",
+      "source": "public/demos/dala/images/apple-touch-icon.png",
+      "sourceSha256": "7c44978addc896a094f1021de3b0a87ec819bd803901574d74201c059efa8dc1",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/cd-33.png",
+      "bytes": 109882,
+      "sha256": "22816bb0c213e57e73edcd486b7f462566d688591f27bbb20d5647eb997abc45",
+      "source": "public/demos/dala/images/cd-33.png",
+      "sourceSha256": "22816bb0c213e57e73edcd486b7f462566d688591f27bbb20d5647eb997abc45",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/dala-bullet.svg",
+      "bytes": 220,
+      "sha256": "effbf3700803de78912dc78bfe68f447c9cf60ba5c98996b5577dc88dd201431",
+      "source": "public/demos/dala/images/dala-bullet.svg",
+      "sourceSha256": "effbf3700803de78912dc78bfe68f447c9cf60ba5c98996b5577dc88dd201431",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/dala-d.png",
+      "bytes": 71518,
+      "sha256": "0d7820fc6bff7faede61c28b7e2019a4525a294957d223b9f99d144c1bab00b9",
+      "source": "public/demos/dala/images/dala-d.png",
+      "sourceSha256": "0d7820fc6bff7faede61c28b7e2019a4525a294957d223b9f99d144c1bab00b9",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/dof-2k-10.jpg",
+      "bytes": 176438,
+      "sha256": "0e99f85c7a0fd4f495cf5634392fb7f2848f4b6c4497f331eda003e1a6f0be73",
+      "source": "public/demos/dala/images/dof-2k-10.jpg",
+      "sourceSha256": "0e99f85c7a0fd4f495cf5634392fb7f2848f4b6c4497f331eda003e1a6f0be73",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/favicon-16x16.png",
+      "bytes": 1263,
+      "sha256": "3032b2bce680bf9b0b372d5c2df899468c0fca3d9665467a9936dd37963a9998",
+      "source": "public/demos/dala/images/favicon-16x16.png",
+      "sourceSha256": "3032b2bce680bf9b0b372d5c2df899468c0fca3d9665467a9936dd37963a9998",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/favicon-32x32.png",
+      "bytes": 1669,
+      "sha256": "8b1989415167c53154ade1e88cf09b82ac6423060fb7aa2ea3a528569e7b87d5",
+      "source": "public/demos/dala/images/favicon-32x32.png",
+      "sourceSha256": "8b1989415167c53154ade1e88cf09b82ac6423060fb7aa2ea3a528569e7b87d5",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/favicon.ico",
+      "bytes": 15086,
+      "sha256": "c59c87752a098a66447edf62f7d3f899e03a3714b74bfed435891151ea45e241",
+      "source": "public/demos/dala/images/favicon.ico",
+      "sourceSha256": "c59c87752a098a66447edf62f7d3f899e03a3714b74bfed435891151ea45e241",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/gradient-noise.jpg",
+      "bytes": 19401,
+      "sha256": "772f41e7654fbd35437642b2cd9a6cb8416f983fc050e8c150b70c3b9cd97e89",
+      "source": "public/demos/dala/images/gradient-noise.jpg",
+      "sourceSha256": "772f41e7654fbd35437642b2cd9a6cb8416f983fc050e8c150b70c3b9cd97e89",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/haroun.jpg",
+      "bytes": 44003,
+      "sha256": "12f81a512724bbc76a19c588901a7737561a1263b6865768fde3010372b240ae",
+      "source": "public/demos/dala/images/haroun.jpg",
+      "sourceSha256": "12f81a512724bbc76a19c588901a7737561a1263b6865768fde3010372b240ae",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/joel.jpg",
+      "bytes": 51634,
+      "sha256": "6fdb13c84d403a1ccde0b986a149168a38ab3ec1f91c0c7ddb2157aaecdf2bb2",
+      "source": "public/demos/dala/images/joel.jpg",
+      "sourceSha256": "6fdb13c84d403a1ccde0b986a149168a38ab3ec1f91c0c7ddb2157aaecdf2bb2",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/noise.jpg",
+      "bytes": 454576,
+      "sha256": "84ba9116ff4ceca6742efde898970bfb2966c2bc8ca9113d73e4622da33ff8b3",
+      "source": "public/demos/dala/images/noise.jpg",
+      "sourceSha256": "84ba9116ff4ceca6742efde898970bfb2966c2bc8ca9113d73e4622da33ff8b3",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/poppy.jpg",
+      "bytes": 59609,
+      "sha256": "c0f01710d96cd4b12c3b3bdf177e6ec0866030ea62ec85a9310d3533ad1d0797",
+      "source": "public/demos/dala/images/poppy.jpg",
+      "sourceSha256": "c0f01710d96cd4b12c3b3bdf177e6ec0866030ea62ec85a9310d3533ad1d0797",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/pos-33.exr",
+      "bytes": 281849,
+      "sha256": "ec2500e54313d2d58247e6e6cbd840b3066866eb03bb464a5d377979735420d6",
+      "source": "public/demos/dala/images/pos-33.exr",
+      "sourceSha256": "ec2500e54313d2d58247e6e6cbd840b3066866eb03bb464a5d377979735420d6",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/safari-pinned-tab.svg",
+      "bytes": 921,
+      "sha256": "487711c07947d71aeb0ff35194537336821068936bd15d63e817e9314b60e37a",
+      "source": "public/demos/dala/images/safari-pinned-tab.svg",
+      "sourceSha256": "487711c07947d71aeb0ff35194537336821068936bd15d63e817e9314b60e37a",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/sc-33.png",
+      "bytes": 84325,
+      "sha256": "7d26b023f3ddf3470a1fbc234d97875bd7028d73491862869cd8cb3768c0252e",
+      "source": "public/demos/dala/images/sc-33.png",
+      "sourceSha256": "7d26b023f3ddf3470a1fbc234d97875bd7028d73491862869cd8cb3768c0252e",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/images/svgsprite.svg",
+      "bytes": 7873,
+      "sha256": "be1b60eb450bf4982b88573822486c75c55e1f5e72a0653e3ad5c550722c8c7a",
+      "source": "public/demos/dala/images/svgsprite.svg",
+      "sourceSha256": "be1b60eb450bf4982b88573822486c75c55e1f5e72a0653e3ad5c550722c8c7a",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/index.html",
+      "bytes": 44275,
+      "sha256": "11b26965ecd087272c118b4933d3641b5066b17bd6d5ed2d1fa2813613f866b9",
+      "source": "public/demos/dala/index.html",
+      "sourceSha256": "11b26965ecd087272c118b4933d3641b5066b17bd6d5ed2d1fa2813613f866b9",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/js/manifest.js",
+      "bytes": 1594,
+      "sha256": "6018de4cdcd777b29bf3354f82a7354611b355543d931a2b033c200be651c64c",
+      "source": "public/demos/dala/js/manifest.js",
+      "sourceSha256": "6018de4cdcd777b29bf3354f82a7354611b355543d931a2b033c200be651c64c",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/js/theme.js",
+      "bytes": 265715,
+      "sha256": "15d3adb4ad6450142a5fdfea7ab7d533a4055bc1590d2e2aec3a68cef259a8f8",
+      "source": "public/demos/dala/js/theme.js",
+      "sourceSha256": "ca05ac62813d01087c54aa40509fbfed22f8b95768c816f3f487472105b3d51f",
+      "modified": true
+    },
+    {
+      "path": "demos/dala/js/vendor.js",
+      "bytes": 696250,
+      "sha256": "1c798cc818c0aaeaf76f4bb9dbac45e62cfc40f45bdf7ca50dcf3201d0d61824",
+      "source": "public/demos/dala/js/vendor.js",
+      "sourceSha256": "1c798cc818c0aaeaf76f4bb9dbac45e62cfc40f45bdf7ca50dcf3201d0d61824",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/models/py-lod1.glb",
+      "bytes": 2396,
+      "sha256": "185c371a2261b65c5d254425bd43a63a96e3a61bde0d6d83f45b501b947dd985",
+      "source": "public/demos/dala/models/py-lod1.glb",
+      "sourceSha256": "185c371a2261b65c5d254425bd43a63a96e3a61bde0d6d83f45b501b947dd985",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/models/py-lod2.glb",
+      "bytes": 2400,
+      "sha256": "b9ea319a3338d60c0a1760af7ca7ce8a50f164e2f7a572148eb8258888780630",
+      "source": "public/demos/dala/models/py-lod2.glb",
+      "sourceSha256": "b9ea319a3338d60c0a1760af7ca7ce8a50f164e2f7a572148eb8258888780630",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/models/py-lod3.glb",
+      "bytes": 2400,
+      "sha256": "66fbdf1eb70d0d9604523f42e10e75d31c38fb4ccf48fde05c27e50f52899334",
+      "source": "public/demos/dala/models/py-lod3.glb",
+      "sourceSha256": "66fbdf1eb70d0d9604523f42e10e75d31c38fb4ccf48fde05c27e50f52899334",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/models/py-lod7.glb",
+      "bytes": 1600,
+      "sha256": "8f247565333503f569358d816512724d47e9931c8f574dbdad1fadaf043a82b6",
+      "source": "public/demos/dala/models/py-lod7.glb",
+      "sourceSha256": "8f247565333503f569358d816512724d47e9931c8f574dbdad1fadaf043a82b6",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/models/py-monbile.glb",
+      "bytes": 1236,
+      "sha256": "df1ab5c2aa641c925764ba43689d774c29497598eb7d9827d2441b3d2e79b5b0",
+      "source": "public/demos/dala/models/py-monbile.glb",
+      "sourceSha256": "df1ab5c2aa641c925764ba43689d774c29497598eb7d9827d2441b3d2e79b5b0",
+      "modified": false
+    },
+    {
+      "path": "demos/dala/site.webmanifest",
+      "bytes": 378,
+      "sha256": "9ff582a901c21fcad64f60f096ada8fe5bf42c89a70878f9e508a4de0d497983",
+      "source": "public/demos/dala/site.webmanifest",
+      "sourceSha256": "9ff582a901c21fcad64f60f096ada8fe5bf42c89a70878f9e508a4de0d497983",
+      "modified": false
+    },
+    {
+      "path": "embed.html",
+      "bytes": 45526,
+      "sha256": "cc47b17a23d7ac104e8996cc2bc43f70fc27f720feb51d89bc2fc38148902ce9",
+      "generated": true
+    },
+    {
+      "path": "index.html",
+      "bytes": 2251,
+      "sha256": "687b8162104188051e925676ac311722397e086000eec3c2e9415f358bc67e1e",
+      "generated": true
+    }
+  ]
+}

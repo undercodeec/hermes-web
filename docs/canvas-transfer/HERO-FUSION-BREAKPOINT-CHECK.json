@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-10",
+  "scope": "Implementer technical responsive CSS check after QA P2; not independent QA or visual approval",
+  "browser": "158.0.8127.18",
+  "server": "local static out",
+  "reducedMotion": "reduce",
+  "results": [
+    {
+      "width": 390,
+      "radiusBottomLeft": "0px",
+      "radiusBottomRight": "0px",
+      "borderBottom": "0px",
+      "shadow": "none",
+      "background": "rgb(252, 252, 252)",
+      "textMask": "none",
+      "decorationMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)",
+      "canvasFrames": 0
+    },
+    {
+      "width": 809,
+      "radiusBottomLeft": "0px",
+      "radiusBottomRight": "0px",
+      "borderBottom": "0px",
+      "shadow": "none",
+      "background": "rgb(252, 252, 252)",
+      "textMask": "none",
+      "decorationMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)",
+      "canvasFrames": 0
+    },
+    {
+      "width": 810,
+      "radiusBottomLeft": "0px",
+      "radiusBottomRight": "0px",
+      "borderBottom": "0px",
+      "shadow": "none",
+      "background": "rgb(252, 252, 252)",
+      "textMask": "none",
+      "decorationMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)",
+      "canvasFrames": 0
+    },
+    {
+      "width": 900,
+      "radiusBottomLeft": "0px",
+      "radiusBottomRight": "0px",
+      "borderBottom": "0px",
+      "shadow": "none",
+      "background": "rgb(252, 252, 252)",
+      "textMask": "none",
+      "decorationMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)",
+      "canvasFrames": 0
+    },
+    {
+      "width": 901,
+      "radiusBottomLeft": "0px",
+      "radiusBottomRight": "0px",
+      "borderBottom": "0px",
+      "shadow": "none",
+      "background": "rgb(252, 252, 252)",
+      "textMask": "none",
+      "decorationMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)",
+      "canvasFrames": 0
+    },
+    {
+      "width": 1200,
+      "radiusBottomLeft": "0px",
+      "radiusBottomRight": "0px",
+      "borderBottom": "0px",
+      "shadow": "none",
+      "background": "rgb(252, 252, 252)",
+      "textMask": "none",
+      "decorationMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)",
+      "canvasFrames": 0
+    },
+    {
+      "width": 1440,
+      "radiusBottomLeft": "0px",
+      "radiusBottomRight": "0px",
+      "borderBottom": "0px",
+      "shadow": "none",
+      "background": "rgb(252, 252, 252)",
+      "textMask": "none",
+      "decorationMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)",
+      "canvasFrames": 0
+    }
+  ],
+  "originalDispersion": "Still blocked: original public API unavailable; not retested or claimed restored by this CSS fix."
+}

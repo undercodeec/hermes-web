@@ -1,0 +1,114 @@
+{
+  "1440": {
+    "edge": {
+      "top": 898.46875,
+      "height": 360,
+      "visible": 1.53125,
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "entry": {
+      "tag": "ARTICLE",
+      "cls": "feature-card feature-conversation",
+      "id": "",
+      "qa": "card",
+      "top": 666.46875,
+      "height": 360,
+      "viewport": 900,
+      "duration": 650
+    },
+    "animation": {
+      "state": "running",
+      "time": 0,
+      "duration": 650
+    },
+    "tall_edge": {
+      "top": 898.46875,
+      "height": 2400,
+      "visible": 1.53125,
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "tall_entry": {
+      "tag": "ARTICLE",
+      "cls": "feature-card feature-conversation",
+      "id": "",
+      "qa": "tall",
+      "top": 630.46875,
+      "height": 2400,
+      "viewport": 900,
+      "duration": 650
+    },
+    "focus": {
+      "focus": "focus",
+      "events": 0,
+      "opacity": "1"
+    },
+    "anchor": {
+      "hash": "#capacidades",
+      "targetEvents": 0,
+      "visible": true
+    },
+    "nojs": {
+      "visibility": "visible",
+      "opacity": "1",
+      "script": "undefined"
+    }
+  },
+  "390": {
+    "edge": {
+      "top": 897.515625,
+      "height": 381.59375,
+      "visible": 2.484375,
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "entry": {
+      "tag": "ARTICLE",
+      "cls": "feature-card feature-conversation",
+      "id": "",
+      "qa": "card",
+      "top": 651.515625,
+      "height": 381.59375,
+      "viewport": 900,
+      "duration": 650
+    },
+    "animation": {
+      "state": "running",
+      "time": 0,
+      "duration": 650
+    },
+    "tall_edge": {
+      "top": 897.515625,
+      "height": 2400,
+      "visible": 2.484375,
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "tall_entry": {
+      "tag": "ARTICLE",
+      "cls": "feature-card feature-conversation",
+      "id": "",
+      "qa": "tall",
+      "top": 629.515625,
+      "height": 2400,
+      "viewport": 900,
+      "duration": 650
+    },
+    "focus": {
+      "focus": "focus",
+      "events": 0,
+      "opacity": "1"
+    },
+    "anchor": {
+      "hash": "#capacidades",
+      "targetEvents": 0,
+      "visible": true
+    },
+    "nojs": {
+      "visibility": "visible",
+      "opacity": "1",
+      "script": "undefined"
+    }
+  }
+}

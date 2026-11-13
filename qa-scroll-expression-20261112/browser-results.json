@@ -1,0 +1,400 @@
+{
+  "1440": {
+    "heading": {
+      "tag": "H2",
+      "cls": "",
+      "id": "features-title",
+      "qa": "heading",
+      "top": 434.671875,
+      "left": 398.5625,
+      "right": 1026.421875,
+      "viewport": 1425,
+      "frames": [
+        {
+          "transform": "translateY(28px) scale(0.985)",
+          "offset": 0
+        },
+        {
+          "transform": "translateY(4px) scale(0.998)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 880,
+        "delay": 0,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "text": {
+      "tag": "P",
+      "cls": "",
+      "id": "",
+      "qa": "text",
+      "top": 513.46875,
+      "left": 462.484375,
+      "right": 962.484375,
+      "viewport": 1425,
+      "frames": [
+        {
+          "transform": "translateY(24px)",
+          "offset": 0
+        },
+        {
+          "transform": "translateY(4px)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 760,
+        "delay": 0,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "first_card": {
+      "tag": "ARTICLE",
+      "cls": "feature-card feature-conversation",
+      "id": "",
+      "qa": "card0",
+      "top": 284.46875,
+      "left": 112.5,
+      "right": 757.953125,
+      "viewport": 1425,
+      "frames": [
+        {
+          "transform": "translateY(34px) scale(0.975)",
+          "offset": 0
+        },
+        {
+          "transform": "translateY(5px) scale(0.995)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 880,
+        "delay": 0,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "second_card": {
+      "tag": "ARTICLE",
+      "cls": "feature-card feature-source",
+      "id": "",
+      "qa": "card1",
+      "top": 284.46875,
+      "left": 777.953125,
+      "right": 1312.484375,
+      "viewport": 1425,
+      "frames": [
+        {
+          "transform": "translateY(34px) scale(0.975)",
+          "offset": 0
+        },
+        {
+          "transform": "translateY(5px) scale(0.995)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 880,
+        "delay": 70,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "copy": {
+      "tag": "DIV",
+      "cls": "detail-copy",
+      "id": "",
+      "qa": "copy",
+      "top": 333.1875,
+      "left": 132.5,
+      "right": 562.5,
+      "viewport": 1425,
+      "frames": [
+        {
+          "transform": "translate(-32px, 14px)",
+          "offset": 0
+        },
+        {
+          "transform": "translate(-3.84px, 2px)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 880,
+        "delay": 0,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "visual": {
+      "tag": "DIV",
+      "cls": "detail-visual",
+      "id": "",
+      "qa": "visual",
+      "top": 303.484375,
+      "left": 722.5,
+      "right": 1292.5,
+      "viewport": 1425,
+      "frames": [
+        {
+          "transform": "translate(32px, 14px)",
+          "offset": 0
+        },
+        {
+          "transform": "translate(3.84px, 2px)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 880,
+        "delay": 0,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "dynamic_reduced": {
+      "reduced": true,
+      "active": 0,
+      "opacity": "1"
+    },
+    "failure": {
+      "visibility": "visible",
+      "opacity": "1",
+      "transform": "none",
+      "board": true
+    },
+    "nojs": {
+      "visibility": "visible",
+      "opacity": "1",
+      "script": "undefined",
+      "board": true
+    }
+  },
+  "390": {
+    "heading": {
+      "tag": "H2",
+      "cls": "",
+      "id": "features-title",
+      "qa": "heading",
+      "top": 396.328125,
+      "left": 16,
+      "right": 359,
+      "viewport": 375,
+      "frames": [
+        {
+          "transform": "translateY(28px) scale(0.985)",
+          "offset": 0
+        },
+        {
+          "transform": "translateY(4px) scale(0.998)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 880,
+        "delay": 0,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "text": {
+      "tag": "P",
+      "cls": "",
+      "id": "",
+      "qa": "text",
+      "top": 479.515625,
+      "left": 16,
+      "right": 359,
+      "viewport": 375,
+      "frames": [
+        {
+          "transform": "translateY(24px)",
+          "offset": 0
+        },
+        {
+          "transform": "translateY(4px)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 760,
+        "delay": 0,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "first_card": {
+      "tag": "ARTICLE",
+      "cls": "feature-card feature-conversation",
+      "id": "",
+      "qa": "card0",
+      "top": 239.515625,
+      "left": 16,
+      "right": 359,
+      "viewport": 375,
+      "frames": [
+        {
+          "transform": "translateY(34px) scale(0.975)",
+          "offset": 0
+        },
+        {
+          "transform": "translateY(5px) scale(0.995)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 880,
+        "delay": 0,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "second_card": {
+      "tag": "ARTICLE",
+      "cls": "feature-card feature-source",
+      "id": "",
+      "qa": "card1",
+      "top": 649.109375,
+      "left": 16,
+      "right": 359,
+      "viewport": 375,
+      "frames": [
+        {
+          "transform": "translateY(34px) scale(0.975)",
+          "offset": 0
+        },
+        {
+          "transform": "translateY(5px) scale(0.995)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 880,
+        "delay": 70,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "copy": {
+      "tag": "DIV",
+      "cls": "detail-copy",
+      "id": "",
+      "qa": "copy",
+      "top": 333.984375,
+      "left": 16,
+      "right": 359,
+      "viewport": 375,
+      "frames": [
+        {
+          "transform": "translate(-12px, 14px)",
+          "offset": 0
+        },
+        {
+          "transform": "translate(-1.44px, 2px)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 880,
+        "delay": 0,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "visual": {
+      "tag": "DIV",
+      "cls": "detail-visual",
+      "id": "",
+      "qa": "visual",
+      "top": 553.359375,
+      "left": 16,
+      "right": 359,
+      "viewport": 375,
+      "frames": [
+        {
+          "transform": "translate(12px, 14px)",
+          "offset": 0
+        },
+        {
+          "transform": "translate(1.44px, 2px)",
+          "offset": 0.72
+        },
+        {
+          "transform": "translate(0, 0) scale(1)",
+          "offset": 1
+        }
+      ],
+      "options": {
+        "duration": 880,
+        "delay": 0,
+        "easing": "cubic-bezier(.2,.7,.2,1)",
+        "fill": "backwards"
+      }
+    },
+    "dynamic_reduced": {
+      "reduced": true,
+      "active": 0,
+      "opacity": "1"
+    },
+    "failure": {
+      "visibility": "visible",
+      "opacity": "1",
+      "transform": "none",
+      "board": true
+    },
+    "nojs": {
+      "visibility": "visible",
+      "opacity": "1",
+      "script": "undefined",
+      "board": true
+    }
+  }
+}

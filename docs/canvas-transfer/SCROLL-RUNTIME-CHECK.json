@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-10",
+  "kind": "Implementer Chromium technical check; not independent QA or visual approval",
+  "browser": "158.0.8127.18",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "initial": {
+    "parentY": 0,
+    "heroTop": 90,
+    "heroHeight": 700,
+    "heroVisible": true,
+    "bridge": "ready",
+    "ready": true,
+    "state": {
+      "progress": 0,
+      "explode": 0,
+      "simulationExplode": 0,
+      "springExplode": 0,
+      "hasRendered": true,
+      "time": 1.401
+    },
+    "pointerEvents": "none",
+    "frameOpacity": "1",
+    "brainOpacity": "1",
+    "layerMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)"
+  },
+  "expanded": {
+    "parentY": 580,
+    "heroTop": -490,
+    "heroHeight": 700,
+    "heroVisible": true,
+    "bridge": "ready",
+    "ready": true,
+    "state": {
+      "progress": 2.2,
+      "explode": 0.9576088417247839,
+      "simulationExplode": 0.9576088417247839,
+      "springExplode": 0.9576088417247839,
+      "hasRendered": true,
+      "time": 13.771
+    },
+    "pointerEvents": "none",
+    "frameOpacity": "1",
+    "brainOpacity": "1",
+    "layerMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)"
+  },
+  "regrouped": {
+    "parentY": 0,
+    "heroTop": 90,
+    "heroHeight": 700,
+    "heroVisible": true,
+    "bridge": "ready",
+    "ready": true,
+    "state": {
+      "progress": 0,
+      "explode": 0.040935579932285526,
+      "simulationExplode": 0.040935579932285526,
+      "springExplode": 0.040935579932285526,
+      "hasRendered": true,
+      "time": 24.424
+    },
+    "pointerEvents": "none",
+    "frameOpacity": "1",
+    "brainOpacity": "1",
+    "layerMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)"
+  },
+  "remount": {
+    "parentY": 430,
+    "heroTop": -340,
+    "heroHeight": 700,
+    "heroVisible": true,
+    "bridge": "ready",
+    "ready": true,
+    "state": {
+      "progress": 1.5265306122448983,
+      "explode": 0.31590329879962264,
+      "simulationExplode": 0.31590329879962264,
+      "springExplode": 0.31590329879962264,
+      "hasRendered": true,
+      "time": 5.576
+    },
+    "pointerEvents": "none",
+    "frameOpacity": "1",
+    "brainOpacity": "1",
+    "layerMask": "linear-gradient(rgb(0, 0, 0) 55%, rgba(0, 0, 0, 0) 100%)"
+  },
+  "apiContract": {
+    "frozen": true,
+    "snapshotFrozen": true,
+    "invalid": [
+      false,
+      false,
+      false
+    ],
+    "keys": [
+      "ready",
+      "setProgress",
+      "state"
+    ],
+    "globals": [
+      "undefined",
+      "undefined"
+    ]
+  },
+  "offscreenUnmount": true,
+  "reducedMotionNoFrame": true,
+  "mobileNoFrame": true,
+  "errors": [],
+  "externalRequests": [],
+  "conclusion": "PASS: native parent wheel changes original rendered progress and all three real explosion uniforms, reverses below .05, renderer time advances; no global opacity fade was introduced."
+}

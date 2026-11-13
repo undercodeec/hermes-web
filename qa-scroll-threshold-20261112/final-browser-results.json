@@ -1,0 +1,70 @@
+{
+  "1440": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "edge": {
+      "top": 898.46875,
+      "visible": 1.53125,
+      "opacity": "1"
+    },
+    "entry": {
+      "qa": "card",
+      "top": 666.46875,
+      "height": 360,
+      "viewport": 900,
+      "duration": 650
+    },
+    "running": {
+      "state": "running",
+      "duration": 650
+    },
+    "tall": {
+      "qa": "tall",
+      "top": 630.46875,
+      "height": 2400,
+      "viewport": 900,
+      "duration": 650
+    },
+    "nojs": {
+      "visibility": "visible",
+      "opacity": "1",
+      "script": "undefined"
+    }
+  },
+  "390": {
+    "viewport": [
+      390,
+      844
+    ],
+    "edge": {
+      "top": 841.515625,
+      "visible": 2.484375,
+      "opacity": "1"
+    },
+    "entry": {
+      "qa": "card",
+      "top": 595.515625,
+      "height": 381.59375,
+      "viewport": 844,
+      "duration": 650
+    },
+    "running": {
+      "state": "running",
+      "duration": 650
+    },
+    "tall": {
+      "qa": "tall",
+      "top": 590.515625,
+      "height": 2400,
+      "viewport": 844,
+      "duration": 650
+    },
+    "nojs": {
+      "visibility": "visible",
+      "opacity": "1",
+      "script": "undefined"
+    }
+  }
+}

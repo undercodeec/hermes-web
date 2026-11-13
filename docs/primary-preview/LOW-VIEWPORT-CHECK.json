@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-10",
+  "status": "passed",
+  "scope": "Implementer technical Chromium checks only; independent runtime QA and visual approval pending",
+  "evidence": [
+    "LOW-VIEWPORT-320x480.json",
+    "LOW-VIEWPORT-640x280.json"
+  ],
+  "results": [
+    {
+      "date": "2026-11-10",
+      "status": "passed",
+      "kind": "Implementer Chromium regression, not independent QA or visual approval",
+      "browser": "158.0.8127.18",
+      "viewport": {
+        "width": 320,
+        "height": 480
+      },
+      "fontState": [
+        {
+          "family": "Inter",
+          "status": "loaded"
+        }
+      ],
+      "environment": {
+        "FONTCONFIG_FILE": "/tmp/hermes-browser/fonts.conf",
+        "fonts": "/tmp/browser-libs/usr/share/fonts (existing runtime DejaVu)",
+        "cache": "/tmp/hermes-browser/font-cache"
+      },
+      "fixtureNote": "Only favicon.ico fulfilled with 204. No UI/font/resource substitution. Scroll positioning belongs to test only.",
+      "sources": {
+        "src/app/primary-preview.jsx": "6acff69c6542f8b7755cdc68d2c8c542f318c151231b6b8c023d175ced9e063c",
+        "src/app/primary-preview-model.mjs": "ed5647c24ce6d2ca226b676d71f34aa686db14d3f48b06e9c5ee77cb9654056a",
+        "src/app/primary-preview.module.css": "d481a3a7c6a25277b2a53ff168690738d802c2f98110e93bca3f4cdae5e2cac3"
+      },
+      "autoSurface": {
+        "figureHeight": 1359.09375,
+        "viewportHeight": 480,
+        "visibleHeight": 337.28125,
+        "wholeFigureRatio": 0.2481662872778276,
+        "availableSurfaceRatio": 0.7026692708333333,
+        "scrollY": 1644
+      },
+      "controlRect": {
+        "top": 234.6875,
+        "bottom": 278.6875,
+        "width": 112,
+        "height": 44,
+        "viewportHeight": 480,
+        "focused": true
+      },
+      "resumedControlRect": {
+        "top": 225.6875,
+        "bottom": 269.6875,
+        "width": 104,
+        "height": 44,
+        "viewportHeight": 480,
+        "focused": true
+      },
+      "fullyOffscreen": {
+        "figureHeight": 1359.09375,
+        "viewportHeight": 480,
+        "visibleHeight": 0,
+        "wholeFigureRatio": 0,
+        "availableSurfaceRatio": 0,
+        "scrollY": 0
+      },
+      "resumedMessageMs": 1544,
+      "frozenDots": [
+        {
+          "play": "paused",
+          "transform": "matrix(1, 0, 0, 1, 0, -2.75247)",
+          "opacity": "0.95462"
+        },
+        {
+          "play": "paused",
+          "transform": "matrix(1, 0, 0, 1, 0, -2.62208)",
+          "opacity": "0.930715"
+        },
+        {
+          "play": "paused",
+          "transform": "matrix(1, 0, 0, 1, 0, -0.458939)",
+          "opacity": "0.534139"
+        }
+      ],
+      "screenshot": "low-320x480-controls.png",
+      "checks": [
+        "automatic incoming typing with whole-figure visibility below .35",
+        "manual pause during typing freezes computed dot styles across offscreen/return",
+        "visible focused >=44px keyboard controls",
+        "resume publishes first message and list time",
+        "keyboard reset empties messages/time",
+        "automatic offscreen pause freezes dots and clock without catchup",
+        "controls focus resumes active time at low height",
+        "resize preserves message progression"
+      ],
+      "errors": []
+    },
+    {
+      "date": "2026-11-10",
+      "status": "passed",
+      "kind": "Implementer Chromium regression, not independent QA or visual approval",
+      "browser": "158.0.8127.18",
+      "viewport": {
+        "width": 640,
+        "height": 280
+      },
+      "fontState": [
+        {
+          "family": "Inter",
+          "status": "loaded"
+        }
+      ],
+      "environment": {
+        "FONTCONFIG_FILE": "/tmp/hermes-browser/fonts.conf",
+        "fonts": "/tmp/browser-libs/usr/share/fonts (existing runtime DejaVu)",
+        "cache": "/tmp/hermes-browser/font-cache"
+      },
+      "fixtureNote": "Only favicon.ico fulfilled with 204. No UI/font/resource substitution. Scroll positioning belongs to test only.",
+      "sources": {
+        "src/app/primary-preview.jsx": "6acff69c6542f8b7755cdc68d2c8c542f318c151231b6b8c023d175ced9e063c",
+        "src/app/primary-preview-model.mjs": "ed5647c24ce6d2ca226b676d71f34aa686db14d3f48b06e9c5ee77cb9654056a",
+        "src/app/primary-preview.module.css": "d481a3a7c6a25277b2a53ff168690738d802c2f98110e93bca3f4cdae5e2cac3"
+      },
+      "autoSurface": {
+        "figureHeight": 1326.796875,
+        "viewportHeight": 280,
+        "visibleHeight": 199.390625,
+        "wholeFigureRatio": 0.15027969145616205,
+        "availableSurfaceRatio": 0.712109375,
+        "scrollY": 1674
+      },
+      "controlRect": {
+        "top": 115.59375,
+        "bottom": 159.59375,
+        "width": 112,
+        "height": 44,
+        "viewportHeight": 280,
+        "focused": true
+      },
+      "resumedControlRect": {
+        "top": 127.59375,
+        "bottom": 171.59375,
+        "width": 104,
+        "height": 44,
+        "viewportHeight": 280,
+        "focused": true
+      },
+      "fullyOffscreen": {
+        "figureHeight": 1326.796875,
+        "viewportHeight": 280,
+        "visibleHeight": 0,
+        "wholeFigureRatio": 0,
+        "availableSurfaceRatio": 0,
+        "scrollY": 0
+      },
+      "resumedMessageMs": 1562,
+      "frozenDots": [
+        {
+          "play": "paused",
+          "transform": "matrix(1, 0, 0, 1, 0, -2.94645)",
+          "opacity": "0.990183"
+        },
+        {
+          "play": "paused",
+          "transform": "matrix(1, 0, 0, 1, 0, -2.14276)",
+          "opacity": "0.842839"
+        },
+        {
+          "play": "paused",
+          "transform": "matrix(1, 0, 0, 1, 0, -0.132183)",
+          "opacity": "0.474234"
+        }
+      ],
+      "screenshot": "low-640x280-controls.png",
+      "checks": [
+        "automatic incoming typing with whole-figure visibility below .35",
+        "manual pause during typing freezes computed dot styles across offscreen/return",
+        "visible focused >=44px keyboard controls",
+        "resume publishes first message and list time",
+        "keyboard reset empties messages/time",
+        "automatic offscreen pause freezes dots and clock without catchup",
+        "controls focus resumes active time at low height",
+        "resize preserves message progression"
+      ],
+      "errors": []
+    }
+  ]
+}

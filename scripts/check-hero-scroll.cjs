@@ -1,0 +1,30 @@
+// Technical Chromium check. Playwright/browser are supplied externally; no production dependency.
+const fs=require('node:fs'),assert=require('node:assert/strict');
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
+(async()=>{
+ const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH,headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader']});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[],externalRequests=[];
+ page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(!new URL(r.url()).hostname.match(/^(localhost|127\.0\.0\.1)$/))externalRequests.push(r.url())});
+ const inspect=()=>{const f=document.querySelector('iframe'),api=f?.contentWindow.__HERMES_HERO_SCROLL__,rect=document.querySelector('.hero').getBoundingClientRect();return {parentY:scrollY,heroTop:rect.top,heroHeight:rect.height,heroVisible:rect.bottom>0,bridge:f?.dataset.scrollBridge,ready:api?.ready,state:api?.state,pointerEvents:f&&getComputedStyle(f).pointerEvents,frameOpacity:f&&getComputedStyle(f).opacity,brainOpacity:f&&getComputedStyle(f.parentElement).opacity,layerMask:getComputedStyle(document.querySelector('.hero-canvas-layer')).maskImage}};
+ const wait=predicate=>page.waitForFunction(predicate,null,{timeout:60000});
+ await page.goto(process.env.HERO_URL||'http://localhost:3000');
+ await wait(()=>document.querySelector('iframe')?.dataset.scrollBridge==='ready');
+ const initial=await page.evaluate(inspect);assert.equal(initial.state.explode,0);assert.equal(initial.state.progress,0);assert.equal(initial.pointerEvents,'none');
+ const time=initial.state.time;
+ await page.mouse.move(720,450);await page.mouse.wheel(0,580);
+ await wait(()=>document.querySelector('iframe')?.contentWindow.__HERMES_HERO_SCROLL__?.state.explode>.95);
+ const expanded=await page.evaluate(inspect);assert.ok(expanded.parentY>0);assert.equal(expanded.state.progress,2.2);assert.ok(expanded.heroVisible);assert.ok(expanded.state.time>time);assert.ok(expanded.state.simulationExplode>.95);assert.ok(expanded.state.springExplode>.95);assert.equal(expanded.brainOpacity,initial.brainOpacity);
+ await page.mouse.wheel(0,-580);
+ await wait(()=>{const s=document.querySelector('iframe')?.contentWindow.__HERMES_HERO_SCROLL__?.state;return scrollY===0&&s?.progress===0&&s.explode<.05});
+ const regrouped=await page.evaluate(inspect);assert.ok(regrouped.state.simulationExplode<.05);assert.ok(regrouped.state.springExplode<.05);
+ const apiContract=await page.evaluate(()=>{const w=document.querySelector('iframe').contentWindow,a=w.__HERMES_HERO_SCROLL__;return {frozen:Object.isFrozen(a),snapshotFrozen:Object.isFrozen(a.state),invalid:[a.setProgress(NaN),a.setProgress(Infinity),a.setProgress('2')],keys:Object.keys(a),globals:[typeof w.gsap,typeof w.ScrollTrigger]}});assert.deepEqual(apiContract.invalid,[false,false,false]);assert.equal(apiContract.frozen,true);assert.equal(apiContract.snapshotFrozen,true);
+ await page.evaluate(()=>scrollTo(0,1700));await wait(()=>!document.querySelector('iframe'));const offscreenUnmount=true;
+ await page.evaluate(()=>scrollTo(0,430));await wait(()=>document.querySelector('iframe')?.dataset.scrollBridge==='ready');
+ await wait(()=>document.querySelector('iframe')?.contentWindow.__HERMES_HERO_SCROLL__?.state.explode>.3);
+ const remount=await page.evaluate(inspect);assert.ok(Math.abs(remount.state.progress-1.526530612244898)<.001);
+ await page.emulateMedia({reducedMotion:'reduce'});await wait(()=>!document.querySelector('iframe'));const reducedMotionNoFrame=true;
+ await page.emulateMedia({reducedMotion:'no-preference'});await page.setViewportSize({width:800,height:900});await page.waitForTimeout(300);assert.equal(await page.locator('iframe').count(),0);const mobileNoFrame=true;
+ assert.deepEqual(errors,[]);assert.deepEqual(externalRequests,[]);
+ const result={date:'2026-11-10',kind:'Implementer Chromium technical check; not independent QA or visual approval',browser:await browser.version(),viewport:{width:1440,height:1000},initial,expanded,regrouped,remount,apiContract,offscreenUnmount,reducedMotionNoFrame,mobileNoFrame,errors,externalRequests,conclusion:'PASS: native parent wheel changes original rendered progress and all three real explosion uniforms, reverses below .05, renderer time advances; no global opacity fade was introduced.'};
+ fs.writeFileSync('/workspace/docs/canvas-transfer/SCROLL-RUNTIME-CHECK.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});
